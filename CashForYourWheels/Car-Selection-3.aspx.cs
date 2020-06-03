@@ -108,13 +108,19 @@ public partial class Car_Selection_3 : System.Web.UI.Page
                                 double capClean = 0;
                                 double capBelow = 0;
 
+                                double dCapAvg = 0;
+                                double dCapClean = 0;
+                                double dCapBelow = 0;
+
                                 double.TryParse(dt.Rows[0]["uvt_average"].ToString(), out capAvg);
                                 double.TryParse(dt.Rows[0]["uvt_clean"].ToString(), out capClean);
                                 double.TryParse(dt.Rows[0]["uvt_below"].ToString(), out capBelow);
+
                                 string strAvg = string.Empty;
 
-
-
+                                dCapAvg = capAvg;
+                                dCapBelow = capBelow;
+                                dCapClean = capClean;
 
                                 if (capAvg > 0 && capClean > 0)
                                 {
@@ -278,9 +284,9 @@ public partial class Car_Selection_3 : System.Web.UI.Page
                                 StringBuilder sb = new StringBuilder(srHTML.ReadToEnd());
                                 sb.Replace("@registration", ((clsCarselection)(Session["userdata"])).Registration);
                                 sb.Replace("@valuation", "£" + Convert.ToString(strAvg));
-                                sb.Replace("@capclean", "£" + Convert.ToString(BAL_Rules.RoundingValues(capClean)));
-                                sb.Replace("@capaverage", "£" + Convert.ToString(BAL_Rules.RoundingValues(capAvg)));
-                                sb.Replace("@capbelow", "£" + Convert.ToString(BAL_Rules.RoundingValues(capBelow)));
+                                sb.Replace("@capclean", "£" + Convert.ToString(BAL_Rules.RoundingValues(dCapClean)));
+                                sb.Replace("@capaverage", "£" + Convert.ToString(BAL_Rules.RoundingValues(dCapAvg)));
+                                sb.Replace("@capbelow", "£" + Convert.ToString(BAL_Rules.RoundingValues(dCapBelow)));
                                 sb.Replace("@manufacturer", ((clsCarselection)(Session["userdata"])).Manufacturer);
                                 sb.Replace("@model@", ((clsCarselection)(Session["userdata"])).Model);
                                 sb.Replace("@modelyear@", ((clsCarselection)(Session["userdata"])).ModelYear);
