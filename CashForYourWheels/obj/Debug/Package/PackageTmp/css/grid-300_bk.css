@@ -1,0 +1,84 @@
+body{background:url(../images/mobile-bg.gif) no-repeat top center #e6e5e5;}
+/*body { background: #eaf3ef url(images/300-grid.png) repeat-y center top; }*/
+div#grid-description { background: url(images/grid-text-sprite.png) no-repeat 0px -500px; width: 768px;  }
+#wrap{padding:0 10px 0 10px;min-width:300px;max-width:300px;}
+#header{background:none;padding:0 0 0 0;height:117px;} 
+#header .logo{width:100%;float:none}
+#header .logo a{ display:block}
+#header .logo img{width:295px;visibility:hidden}
+.logo-bg{display:none}
+
+#header .call{float:none;width:100%;font-size:15px;background:#d1d1d1;-moz-border-radius:0px 0px 5px 5px;-webkit-border-radius:0px 0px 5px 5px;-khtml-border-radius:0px 0px 5px 5px;border-radius:0px 0px 5px 5px;text-align:center;line-height:22px;padding:5px 0 8px 0;color:#313131}
+#header .call a, #header .call a:hover{color:#1c1c1c}
+
+.menu{ font-size:13px;height:auto;padding:8px 0 0 0} 
+.menu a{ margin:0 2% 2% 0;border:1px solid #cccccc;height:28px;line-height:28px;padding:0 12px 0 12px}
+.menu a:hover{border:1px solid #C9061D}
+.menu a.active{border:1px solid #C9061D}
+.home-mid{padding:15px 0 25px}
+
+.step{width:100%;float:none}
+.step h2{font-size:23px;padding:0 0 0px 0}
+.registration-box{height:auto;width:97%;padding:0 0 18px 0}
+.step ul li.step-1 , .step ul li.step-2 , .step ul li.step-3{background-size:30%;}
+.step ul li{font-size:11px;padding:10px 0 10px 102px;height:48px;line-height:16px}
+.registration-box h2{font-size:16px;line-height:20px;padding:12px 0 12px 16px;background:url(../images/free.png) no-repeat scroll 95% 11px #C9061D;background-size:15%;}
+.registration-box input{margin:5%;width:77%;padding:0 12px 0 12px;height:60px;font-size:38px}
+.registration-box input.button{margin:0 0 0 5%;width:88%;-moz-border-radius:31px;-webkit-border-radius:31px;-khtml-border-radius:31px;border-radius:31px;}
+
+.footer-in{width:300px;padding:16px 10px}
+.footer-in p{line-height:14px;font-size:11px;padding:0 0 12px 0}
+.footer-in span{ font-size:13px;padding:5px 0 0 0}
+
+
+.your-car .car-detail{padding:10px}
+.your-car .car-detail .photo{width:272px;padding:0 0 10px 0;float:none;font-size:11px}
+.your-car .car-detail .photo img{max-width:272px;margin:0 0 0px 0}
+.your-car h2{ font-size:18px;padding:8px 20px 9px 20px;text-align:center}
+.your-car h2 span{display:block;float:none;font-size:15px}
+.your-car h2 span img{width:100px}
+
+.your-car .main-detail{float:none;width:272px}
+.your-car .main-detail ul{padding:0 0 14px 0}
+.your-car .main-detail ul li{line-height:30px;font-size:11px}
+.your-car .main-detail ul li span{width:90px;padding:0 8px 0 0}
+.your-car .main-detail ul li b span{width:173px;padding:0 0 0 0}
+a.my-car{width:272px;margin:0 0 0 0;background:url(../images/my-car.png) no-repeat left top;-moz-border-radius:31px;-webkit-border-radius:31px;-khtml-border-radius:31px;border-radius:31px;float:none}
+a.left{ font-size:16px;text-align:center;display:block;float:none}
+.vehicle-details input.button{ margin-left:-127px;left:50%;position:relative;margin-top:0}
+
+.tooltip:hover span{border-radius:5px 5px;-moz-border-radius:5px;-webkit-border-radius:5px;box-shadow:5px 5px 5px rgba(0, 0, 0, 0.1);-webkit-box-shadow:5px 5px rgba(0, 0, 0, 0.1);-moz-box-shadow: 5px 5px rgba(0, 0, 0, 0.1);
+font-family:Calibri, Tahoma, Geneva, sans-serif;position:absolute;left:-12em;top:2em;z-index:99;margin-left:0;width:150px;font-size:11px}
+
+
+.vehicle-details table th{padding:7px 7px 7px 0;font-size:11px;line-height:16px;width:auto!important}
+.vehicle-details table td{padding:7px 7px 7px 0;font-size:11px;line-height:16px;width:auto!important}
+.vehicle-details table td label{ font-size:11px}
+.vehicle-details table th input{ width:100px}
+.valuation{padding:10px 15px 15px 15px}
+.valuation h3{ padding:0 0 0px 0}
+.valuation p{line-height:18px;font-size:14px}
+.valuation-details{border:5px solid #fff}
+
+.valuation-details div.bg{padding:15px}
+.valuation-logo{ width:260px;top:15px}
+.valuation-details .left{float:none;width:auto;padding:45px 0 0}
+.valuation-details .left ul{ padding:0 0 10px 0}
+.valuation-details .left ul li{ line-height:21px;padding:12px 0 12px 0 }
+.valuation-details .right .price span{font-size:43px}
+
+.valuation-details .right{width:auto;float:none;padding:20px 0 0 0}
+.valuation-details .right .date{ margin:0 0 20px 0}
+a.print-valuation{margin:0 0 10px 0;float:none}
+a.book-appointment{background-size:78%;background-image:url("../images/book-appointment.png");background-repeat:no-repeat;background-position:left top;height:49px}
+a.book-appointment:hover{background-size:78%;background-image:url("../images/book-appointment.png");background-repeat:no-repeat;background-position:left bottom;height:49px}
+
+.innerpages{width:auto}
+.innerpages p{ font-size:11px;line-height:15px}
+.enquiryr{width:92px}
+.enquiryl input{width:182px}
+.enquiryl textarea{width:182px}
+
+.branch-right{float:none;width:100%;margin-top:10px;text-align:center}
+.branch-right img{ width:280px;}
+.branch-left{float:none; width:100%;margin:15px 0 0 0}

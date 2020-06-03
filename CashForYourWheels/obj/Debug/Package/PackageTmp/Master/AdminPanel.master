@@ -1,0 +1,118 @@
+<%@ Master Language="C#" AutoEventWireup="true" Inherits="AdminPanel" Codebehind="AdminPanel.master.cs" %>
+
+<%@ Register Src="../UserControls/ReportManagement.ascx" TagName="ReportManagement"
+    TagPrefix="uc4" %>
+<%@ Register Src="../UserControls/UserManagementMenu.ascx" TagName="UserManagementMenu"
+    TagPrefix="uc2" %>
+<%@ Register Src="~/UserControls/MasterTablesMenu.ascx" TagName="MasterTablesMenu"
+    TagPrefix="uc1" %>
+<%@ Register Src="~/UserControls/UserManagementMenu.ascx" TagName="UserManagementMenu"
+    TagPrefix="uc1" %>
+<%@ Register Src="~/UserControls/OrderManagement.ascx" TagName="OrderManagementMenu"
+    TagPrefix="uc3" %>
+<%@ Register Src="~/UserControls/MarkettingManagement.ascx" TagName="MarkettingManagement"
+    TagPrefix="uc5" %>
+<%@ Register Src="~/UserControls/Settings.ascx" TagName="Settings" TagPrefix="uc6" %>
+<%@ Register Src="../UserControls/WC_bodyworkcondition.ascx" TagName="WC_bodyworkcondition"
+    TagPrefix="uc7" %>
+<%@ Register Src="~/UserControls/WC_appointment.ascx" TagName="WC_appointment"
+    TagPrefix="uc8" %>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>Admin Panel</title>
+    <link href="../Admin/CSS/StyleSheet.css" rel="stylesheet" type="text/css" />
+</head>
+<body class="Table_Bck2" style="margin: 0px; text-align: center;">
+    <form id="form1" runat="server">
+    <AjaxToolKit:ToolkitScriptManager ID="ToolkitScriptManager1" runat="server" />
+    <table cellpadding="0px" cellspacing="0px" width="1000px" align="center">
+        <tr>
+            <td class="TitleScrip" style="text-align: right">
+                <table cellspacing="2px" border="0" align="right">
+                    <tr>
+                        <td>
+                            <asp:HyperLink ID="HLHome" runat="server" Text="Home |" CssClass="Table_Title_Label_White"
+                                NavigateUrl="~/Admin/AdminHome.aspx" />
+                        </td>
+                        <td>
+                            <asp:LinkButton ID="HLLogout" runat="server" Text="Logout" CssClass="Table_Title_Label_White"
+                                OnClick="HLLogout_Click"></asp:LinkButton>
+                        </td>
+                        <td width="2px">
+                        </td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+        <tr>
+            <td class="PageHeader_Bck">
+                <asp:HyperLink ID="HyperLink1" runat="server" Text="Admin Panel" CssClass="Table_Title_Label_White20" />
+            </td>
+        </tr>
+        <tr>
+            <td style="height: 400px; vertical-align: top">
+                <table cellpadding="0" cellspacing="0" width="100%">
+                    <tr>
+                        <%--left Panel--%>
+                        <td width="25%" style="vertical-align: top; padding-right: 10px; padding-top: 10px;
+                            padding-bottom: 10px">
+                            <table cellpadding="0" cellspacing="0" width="100%" style="padding-bottom: 10px;">
+                                <%-- <tr>
+                                        <td class="table_td_left">
+                                            <uc1:MasterTablesMenu ID="MasterTablesMenu1" runat="server" />
+                                        </td>
+                                    </tr>--%>
+                                <tr>
+                                    <td class="table_td_left">
+                                        <uc2:UserManagementMenu ID="UserManagementMenu1" runat="server" />
+                                    </td>
+                                </tr>
+                                <%--<tr>
+                                        <td class="table_td_left">
+                                            <uc5:MarkettingManagement ID="MarkettingManagement2" runat="server" />
+                                        </td>
+                                    </tr>--%>
+                                <%--<tr>
+                                        <td class="table_td_left">
+                                            <uc3:OrderManagementMenu ID="OrderManagementMenu" runat="server" />
+                                        </td>
+                                    </tr>--%>
+                                <tr>
+                                    <td class="table_td_left">
+                                        <uc6:Settings ID="Settings" runat="server" />
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="table_td_left">
+                                        <uc7:WC_bodyworkcondition ID="WC_bodyworkcondition1" runat="server" />
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="table_td_left">
+                                        <uc8:WC_appointment ID="WC_appointment1" runat="server" />
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+                        <%--Right Panel--%>
+                        <td style="vertical-align: top; padding-top: 10px; padding-bottom: 10px">
+                            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                            </asp:ContentPlaceHolder>
+                        </td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+        <%--Footer--%>
+        <tr>
+            <td class="FooterScrip" style="text-align: center; padding: 3px">
+                <asp:Label ID="Label3" runat="server" Text="All Rights Reserved : @Company" CssClass="Table_Title_Label_White"></asp:Label>
+                <br />
+                <asp:Label ID="Label2" runat="server" Text="Powered By  SOLUTIONS" CssClass="Table_Title_Label_OffWhite"></asp:Label>
+            </td>
+        </tr>
+    </table>
+    </form>
+</body>
+</html>

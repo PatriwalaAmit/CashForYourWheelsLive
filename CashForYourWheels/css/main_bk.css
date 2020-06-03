@@ -1,0 +1,939 @@
+body {
+    background: url(../images/bg.gif) repeat-x top #e6e5e5;
+}
+
+#wrap {
+    width: 960px;
+    margin: 0 auto;
+}
+
+#header {
+    height: 93px;
+    padding: 10px 0 0 0;
+    position: relative;
+    z-index: 2;
+    background: url(../images/bg.gif) repeat-x 0 0px #e6e5e5;
+    overflow: hidden;
+}
+
+    #header .logo {
+        float: left;
+    }
+
+    #header .call {
+        font-size: 24px;
+        font-family: 'Gotham-Medium',arial;
+        color: #fff;
+        padding: 10px 0 0 0;
+        text-align: right;
+        float: right;
+        line-height: 36px;
+    }
+
+        #header .call a, #header .call a:hover {
+            color: #fff;
+        }
+
+.logo-bg {
+    position: absolute;
+    width: 50%;
+    left: 0px;
+    top: 10px;
+    background: url(../images/logo-bg.gif) repeat-x;
+    height: 93px;
+    z-index: 1;
+}
+
+.menu {
+    height: 36px;
+    padding: 13px 0 14px 0;
+    font-family: 'Helvetica-Bold',arial;
+    font-size: 18px;
+    overflow: hidden;
+}
+
+    .menu a {
+        float: left;
+        display: block;
+        height: 36px;
+        line-height: 36px;
+        color: #333333;
+        padding: 0 17px 0 17px;
+        margin: 0 20px 0 0;
+        -moz-border-radius: 18px;
+        -webkit-border-radius: 18px;
+        -khtml-border-radius: 18px;
+        border-radius: 18px;
+    }
+
+        .menu a:hover {
+            background: #fff;
+            color: #333;
+        }
+
+        .menu a.active {
+            background: #c9061d;
+            color: #fff;
+        }
+
+.home-mid {
+    overflow: hidden;
+    padding: 28px 0 25px 0;
+}
+
+.step {
+    float: left;
+    width: 452px;
+}
+
+    .step h2 {
+        font-family: 'Helvetica-Bold',arial;
+        margin: 0 0 0 0;
+        padding: 0 0 20px 0;
+        color: #333333;
+        font-size: 28px;
+        font-weight: normal;
+    }
+
+    .step ul {
+        display: block;
+    }
+
+        .step ul li {
+            height: 67px;
+            padding: 10px 0 10px 158px;
+            border-bottom: 1px solid #ccc;
+            color: #333333;
+            font-size: 16px;
+            font-family: 'Helvetica',arial;
+            line-height: 19px;
+        }
+
+            .step ul li.step-1 {
+                background: url(../images/step-1.png) no-repeat 0px 10px;
+            }
+
+            .step ul li.step-2 {
+                background: url(../images/step-2.png) no-repeat 0px 10px;
+            }
+
+            .step ul li.step-3 {
+                background: url(../images/step-3.png) no-repeat 0px 10px;
+                border: none;
+            }
+
+.step-2-radio {
+    width: 120px!important;
+    float: left;
+}
+
+.innerpages {
+    float: left;
+    width: 980px;
+    padding: 20px 0 20px 0;
+}
+
+    .innerpages h1 {
+        font-family: 'Helvetica-Bold',arial;
+        margin: 0 0 0 0;
+        color: #C9061D;
+        font-size: 28px;
+        font-weight: normal;
+    }
+
+    .innerpages h2 {
+        font-family: 'Helvetica-Bold',arial;
+        margin: 0 0 0 0;
+        color: #333333;
+        font-size: 28px;
+        font-weight: normal;
+    }
+
+
+
+
+
+    .innerpages a {
+        color: #c9061d;
+    }
+
+        .innerpages a:hover {
+            color: #000;
+        }
+
+
+.registration-box {
+    float: right;
+    width: 456px;
+    height: 311px;
+    background: #fff;
+    -moz-border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -khtml-border-radius: 15px;
+    border-radius: 15px;
+    margin: 8px 7px 7px 0;
+    -moz-box-shadow: 3px 3px 4px #a1a0a0;
+    -webkit-box-shadow: 3px 3px 4px #a1a0a0;
+    box-shadow: 3px 3px 4px #a1a0a0;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Shadow(Strength=4, Direction=135, Color='#a1a0a0')";
+    filter: progid:DXImageTransform.Microsoft.Shadow(Strength=4, Direction=135, Color='#a1a0a0');
+}
+
+    .registration-box h2 {
+        background: url(../images/free.png) no-repeat 365px 13px #c9061d;
+        -moz-border-radius: 15px 15px 0px 0px;
+        -webkit-border-radius: 15px 15px 0px 0px;
+        -khtml-border-radius: 15px 15px 0px 0px;
+        border-radius: 15px 15px 0px 0px;
+        margin: 0 0 0 0;
+        padding: 18px 0 20px 30px;
+        color: #fff;
+        font-weight: normal;
+        font-family: 'Helvetica-Bold',arial;
+        font-size: 24px;
+        line-height: 29px;
+    }
+
+    .registration-box input {
+        margin: 24px 30px 18px 30px;
+        background: #fff;
+        border: 5px solid #999999;
+        height: 69px;
+        -moz-border-radius: 15px;
+        -webkit-border-radius: 15px;
+        -khtml-border-radius: 15px;
+        border-radius: 15px;
+        color: #cccccc;
+        font-size: 48px;
+        font-family: 'Helvetica-Bold',arial;
+        padding: 0 22px 0 22px;
+        width: 340px;
+        text-align:center;
+    }
+
+        .registration-box input.button {
+            width: 401px;
+            height: 63px;
+            padding: 0 0 0 0;
+            margin: 0 0 0 26px;
+            background: url(../images/value-my-car.png) no-repeat;
+            border: none;
+            cursor: pointer;
+        }
+
+
+.your-car {
+    background: #fff;
+    -moz-border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -khtml-border-radius: 15px;
+    border-radius: 15px;
+    margin: 25px 7px 25px 0;
+    -moz-box-shadow: 3px 3px 4px #a1a0a0;
+    -webkit-box-shadow: 3px 3px 4px #a1a0a0;
+    box-shadow: 3px 3px 4px #a1a0a0;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Shadow(Strength=4, Direction=135, Color='#a1a0a0')";
+    filter: progid:DXImageTransform.Microsoft.Shadow(Strength=4, Direction=135, Color='#a1a0a0');
+}
+
+    .your-car h2 {
+        background: #c9061d;
+        -moz-border-radius: 15px 15px 0px 0px;
+        -webkit-border-radius: 15px 15px 0px 0px;
+        -khtml-border-radius: 15px 15px 0px 0px;
+        border-radius: 15px 15px 0px 0px;
+        margin: 0 0 0 0;
+        padding: 12px 28px 14px 28px;
+        color: #fff;
+        font-weight: normal;
+        font-family: 'Helvetica-Bold',arial;
+        font-size: 24px;
+        line-height: 39px;
+        overflow: hidden;
+    }
+
+        .your-car h2 span {
+            float: right;
+        }
+
+            .your-car h2 span img {
+                margin: 0 0 0 10px;
+                vertical-align: middle;
+            }
+
+    .your-car .car-detail {
+        padding: 25px;
+        overflow: hidden;
+    }
+
+        .your-car .car-detail .photo {
+            width: 300px;
+            padding: 25px 0 0 0;
+            float: left;
+            font-size: 12px;
+            color: #999999;
+            font-family: 'Helvetica',arial;
+        }
+
+            .your-car .car-detail .photo img {
+                margin: 0 0 25px 0;
+            }
+
+    .your-car .main-detail {
+        float: right;
+        width: 539px;
+    }
+
+        .your-car .main-detail ul {
+            display: block;
+            padding: 0 0 25px 0;
+        }
+
+            .your-car .main-detail ul li {
+                line-height: 39px;
+                border-bottom: 2px solid #ccc;
+                overflow: hidden;
+                font-size: 16px;
+            }
+
+                .your-car .main-detail ul li span {
+                    display: block;
+                    float: left;
+                    width: 125px;
+                    padding: 0 15px 0 0;
+                    font-family: 'Helvetica-Bold',arial;
+                    color: #c9061d;
+                    text-align: right;
+                }
+
+                .your-car .main-detail ul li b {
+                    float: left;
+                    display: block;
+                    font-weight: normal;
+                    font-family: 'Helvetica',arial;
+                    color: #000;
+                }
+
+                    .your-car .main-detail ul li b span {
+                        float: left;
+                        display: block;
+                        font-weight: normal;
+                        font-family: 'Helvetica',arial;
+                        color: #000;
+                        width: 300px;
+                        text-align: left;
+                    }
+
+    .your-car .book-appointment {
+        float: right;
+        width: 539px;
+    }
+
+        .your-car .book-appointment ul {
+            display: block;
+            padding: 0 0 25px 0;
+        }
+
+            .your-car .book-appointment ul li {
+                line-height: 39px;
+                border-bottom: 2px solid #ccc;
+                overflow: hidden;
+                font-size: 16px;
+            }
+
+                .your-car .book-appointment ul li span {
+                    display: block;
+                    float: left;
+                    width: 185px;
+                    padding: 0 15px 0 0;
+                    font-family: 'Helvetica-Bold',arial;
+                    color: #c9061d;
+                    text-align: right;
+                }
+        /*.your-car .book-appointment ul li b{float:left;display:block;font-weight:normal;font-family:'Helvetica',arial;color:#000}*/
+        .your-car .book-appointment .dropdown {
+            font-weight: normal;
+            font-family: 'Helvetica',arial;
+            color: #000;
+            font-size: 16px;
+        }
+
+        .your-car .book-appointment ul li b span {
+            float: left;
+            display: block;
+            font-weight: normal;
+            font-family: 'Helvetica',arial;
+            color: #000;
+            width: 300px;
+            text-align: left;
+        }
+
+a.my-car {
+    width: 281px;
+    height: 63px;
+    background: url(../images/my-car.png) no-repeat top;
+    float: left;
+    display: block;
+    padding: 0 0 0 0;
+    margin: 0 15px 0 0;
+}
+
+    a.my-car:hover {
+        background: url(../images/my-car.png) no-repeat bottom;
+    }
+
+a.left {
+    float: left;
+    padding: 9px 0 0 0;
+    display: block;
+    color: #c9061d;
+    line-height: 22px;
+    font-size: 18px;
+    font-family: 'Helvetica-Bold',arial;
+}
+
+    a.left:hover {
+        color: #333;
+    }
+
+
+.vehicle-details {
+}
+
+    .vehicle-details table {
+        width: 100%;
+        margin: 0 auto;
+    }
+
+        .vehicle-details table td {
+            padding: 15px 15px 5px 0;
+            line-height: 21px;
+            color: #000;
+            font-size: 16px;
+            font-family: 'Helvetica',arial;
+            border-bottom: 2px solid #ccc;
+        }
+
+            .vehicle-details table td td {
+                padding: 0px 0px 0px 0;
+                line-height: 21px;
+                color: #000;
+                font-size: 16px;
+                font-family: 'Helvetica',arial;
+                border-bottom: none;
+            }
+
+        .vehicle-details table img {
+            vertical-align: middle;
+        }
+
+        .vehicle-details table th {
+            padding: 15px 15px 15px 0;
+            line-height: 21px;
+            color: #000;
+            font-size: 16px;
+            font-family: 'Helvetica',arial;
+            border-bottom: 2px solid #ccc;
+            font-weight: normal;
+        }
+
+            .vehicle-details table th input {
+                width: 212px;
+                border: 1px solid #c2c2c2;
+                height: 23px;
+                padding: 0 6px 0 6px;
+                background: #fff;
+                -moz-border-radius: 3px;
+                -webkit-border-radius: 3px;
+                -khtml-border-radius: 3px;
+                border-radius: 3px;
+            }
+
+        .vehicle-details table td label {
+            color: #666666;
+            font-size: 14px;
+            padding: 0 15px 0 0;
+            vertical-align: middle;
+        }
+
+        .vehicle-details table td select {
+            width: 226px;
+            border: 1px solid #c2c2c2;
+            height: 25px;
+            padding: 3px;
+            background: #fff;
+            -moz-border-radius: 3px;
+            -webkit-border-radius: 3px;
+            -khtml-border-radius: 3px;
+            border-radius: 3px;
+            line-height: 25px;
+        }
+
+    .vehicle-details input.button {
+        margin: 25px 0 0 323px;
+        height: 63px;
+        width: 254px;
+        background: url(../images/submit-details.png) no-repeat;
+        padding: 0 0 0 0;
+        border: none;
+        cursor: pointer;
+    }
+
+
+.valuation {
+    padding: 28px;
+    overflow: hidden;
+}
+
+    .valuation h3 {
+        padding: 0 0 15px 0;
+        margin: 0 0 0 0;
+        font-family: 'Helvetica-Bold',arial;
+        font-size: 24px;
+        color: #333;
+        font-weight: normal;
+    }
+
+    .valuation p {
+        line-height: 20px;
+        color: #333;
+        font-family: 'Helvetica',arial;
+        font-size: 18px;
+        margin: 0 0 0 0;
+        padding: 5px 0 20px 0;
+    }
+
+        .valuation p b {
+            font-weight: normal;
+            font-family: 'Helvetica-Bold',arial;
+        }
+
+        .valuation p a {
+            color: #c9061d;
+        }
+
+            .valuation p a:hover {
+                color: #c9061d;
+            }
+
+.valuation-details {
+    border: 10px solid #fff;
+    -moz-box-shadow: 3px 3px 4px #a1a0a0;
+    -webkit-box-shadow: 3px 3px 4px #a1a0a0;
+    box-shadow: 3px 3px 4px #a1a0a0;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Shadow(Strength=4, Direction=135, Color='#a1a0a0')";
+    filter: progid:DXImageTransform.Microsoft.Shadow(Strength=4, Direction=135, Color='#a1a0a0');
+    background: #c3ecd7;
+    background: -moz-linear-gradient(top, #c3ecd7 0%, #ffffff 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#c3ecd7), color-stop(100%,#ffffff));
+    background: -webkit-linear-gradient(top, #c3ecd7 0%,#ffffff 100%);
+    background: -o-linear-gradient(top, #c3ecd7 0%,#ffffff 100%);
+    background: -ms-linear-gradient(top, #c3ecd7 0%,#ffffff 100%);
+    background: linear-gradient(to bottom, #c3ecd7 0%,#ffffff 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c3ecd7', endColorstr='#ffffff',GradientType=0 );
+    margin: 0px 0 5px 0;
+}
+
+    .valuation-details div.bg {
+        background: url(../images/valuation-bg.png) repeat;
+        padding: 30px;
+        position: relative;
+        overflow: hidden;
+    }
+
+    .valuation-details .left {
+        float: left;
+        width: 420px;
+        padding: 40px 0 0 0;
+        color: #999999;
+        font-family: 'Helvetica-Bold',arial;
+        font-size: 14px;
+    }
+
+        .valuation-details .left ul {
+            display: block;
+            padding: 0 0 20px 0;
+        }
+
+            .valuation-details .left ul li {
+                padding: 12px 0 0 0;
+                line-height: 50px;
+                border-bottom: 1px solid #cccccc;
+                color: #000066;
+                font-size: 18px;
+            }
+
+    .valuation-details .right {
+        float: right;
+        width: 300px;
+    }
+
+        .valuation-details .right .date {
+            line-height: 40px;
+            margin: 0 0 70px 0;
+            font-family: 'Gotham-Medium',arial;
+            font-weight: bold;
+            color: #666666;
+            font-size: 24px;
+            border-bottom: 1px solid #cccccc;
+            padding: 5px 0 0 0;
+        }
+
+            .valuation-details .right .date span {
+                font-family: 'Helvetica-Bold',arial;
+                font-size: 18px;
+                color: #000066;
+                font-weight: normal;
+            }
+
+        .valuation-details .right .price {
+            color: #000066;
+            font-weight: normal;
+            font-size: 36px;
+            padding: 5px 15px 5px 15px;
+            background: #fff;
+        }
+
+            .valuation-details .right .price span {
+                font-family: 'Gotham-Medium',arial;
+                font-weight: bold;
+                color: #666666;
+                font-size: 48px;
+            }
+
+.valuation-logo {
+    position: absolute;
+    left: -20px;
+    top: 20px;
+}
+
+p.terms {
+    font-size: 12px;
+    font-family: 'Helvetica',arial;
+    color: #333333;
+    padding: 0 0 15px 0;
+    margin: 0 0 0 0;
+}
+
+    p.terms a {
+        color: #c9061d;
+        font-family: 'Helvetica-Bold',arial;
+    }
+
+        p.terms a:hover {
+            color: #000;
+        }
+
+a.print-valuation {
+    width: 254px;
+    background: url(../images/print-valuation.png) no-repeat top;
+    height: 63px;
+    display: block;
+    display: block;
+    float: left;
+    margin: 0 25px 0 0;
+}
+
+    a.print-valuation:hover {
+        background: url(../images/print-valuation.png) no-repeat bottom;
+    }
+
+a.book-appointment {
+    width: 334px;
+    background: url(../images/book-appointment.png) no-repeat top;
+    height: 63px;
+    display: block;
+    display: block;
+    float: left;
+    margin: 0 25px 0 0;
+}
+
+    a.book-appointment:hover {
+        background: url(../images/book-appointment.png) no-repeat bottom;
+    }
+
+
+.footer {
+    background: #333333;
+    overflow: hidden;
+}
+
+.footer-in {
+    width: 960px;
+    margin: 0 auto;
+    padding: 25px 0 25px 0;
+}
+
+    .footer-in p {
+        color: #ccc;
+        padding: 0 0 20px 0;
+        line-height: 18px;
+        font-family: 'Helvetica',arial;
+        font-size: 14px;
+        margin: 0 0 0 0;
+    }
+
+    .footer-in span {
+        display: block;
+        padding: 10px 0 0 0;
+        font-family: 'Helvetica-Bold',arial;
+        font-size: 14px;
+        color: #fff;
+    }
+
+/* Tooltip */
+
+.tooltip {
+    color: #fff;
+    outline: none;
+    cursor: help;
+    text-decoration: none;
+    position: relative;
+}
+
+    .tooltip span {
+        margin-left: -999em;
+        position: absolute;
+    }
+
+    .tooltip:hover span {
+        border-radius: 5px 5px;
+        -moz-border-radius: 5px;
+        -webkit-border-radius: 5px;
+        box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.1);
+        -webkit-box-shadow: 5px 5px rgba(0, 0, 0, 0.1);
+        -moz-box-shadow: 5px 5px rgba(0, 0, 0, 0.1);
+        font-family: Calibri, Tahoma, Geneva, sans-serif;
+        position: absolute;
+        left: 1em;
+        top: 2em;
+        z-index: 99;
+        margin-left: 0;
+        width: 250px;
+    }
+    /*.tooltip:hover img {border:0;margin:-10px 0 0 -55px;float:left;position:absolute;}*/
+    .tooltip:hover em {
+        font-family: Candara, Tahoma, Geneva, sans-serif;
+        font-size: 1.2em;
+        font-weight: bold;
+        display: block;
+        padding: 0.2em 0 0.6em 0;
+    }
+
+/*Contact Tooltip*/ 
+
+.contacttooltip {
+    color: #fff;
+    outline: none;
+    cursor: help;
+    text-decoration: none;
+    position: relative;
+    margin:0px 10px;
+}
+    
+    .contacttooltip span {
+        margin-left: -999em;
+        position: absolute;
+    }
+
+    .contacttooltip:hover span {
+        border-radius: 5px 5px;
+        -moz-border-radius: 5px;
+        -webkit-border-radius: 5px;
+        box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.1);
+        -webkit-box-shadow: 5px 5px rgba(0, 0, 0, 0.1);
+        -moz-box-shadow: 5px 5px rgba(0, 0, 0, 0.1);
+        font-family: Calibri, Tahoma, Geneva, sans-serif;
+        position: absolute;
+        left: 1em;
+        top: 2em;
+        z-index: 99;
+        margin-left: 0;
+        width: 250px;
+        color:#fff;
+    }
+    /*.tooltip:hover img {border:0;margin:-10px 0 0 -55px;float:left;position:absolute;}*/
+    .contacttooltip:hover em {
+        font-family: Candara, Tahoma, Geneva, sans-serif;
+        font-size: 1.2em;
+        font-weight: bold;
+        display: block;
+        padding: 0.2em 0 0.6em 0;        
+    }
+
+/*End Contact Tooltip*/
+
+
+.classic {
+    padding: 8px 12px 8px 12px;
+}
+
+.custom {
+    padding: 0.5em 0.8em 0.8em 2em;
+}
+
+* html a:hover {
+    background: transparent;
+}
+
+.classic {
+    background: #222222;
+    border: 2px solid #fff;
+    font-size: 12px;
+    line-height: 15px;
+}
+
+.enquiryr {
+    float: left;
+    line-height: 30px;
+    text-align: right;
+    width: 130px;
+    padding: 0 8px 0 0;
+    /*font-weight: bold;*/
+    margin: 0 0 8px 0;
+    font-family: 'Helvetica',arial;
+    font-size: 15px;
+}
+
+.enquiryl input {
+    float: left;
+    width: 220px;
+    margin: 0 0 8px 0;
+    padding: 0 8px 0 8px;
+    border: none;
+    height: 30px;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -khtml-border-radius: 3px;
+    border-radius: 3px;
+    background: #fff;
+}
+
+.enquiryl textarea {
+    float: left;
+    width: 220px;
+    margin: 0 0 8px 0;
+    padding: 8px;
+    border: none;
+    height: 80px;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -khtml-border-radius: 3px;
+    border-radius: 3px;
+    background: #fff;
+}
+
+
+
+input.enquirybutton {
+    width: 95px;
+    height: 36px;
+    border: none;
+    background: url(../images/submit.png) no-repeat;
+    cursor: pointer;
+    padding: 0 0 0 0;
+    margin: 0 0 0 0px;
+}
+
+.branch-right {
+    float: right;
+    width: 50%;
+    margin-top: 10px;
+}
+
+.branch-left {
+    float: left;
+    width: 50%;
+}
+
+.contact-term ul, .contact-term li {
+    list-style: circle outside none;
+    margin-left: 15px;
+    padding:5px;
+    margin-top:10px;
+}
+
+.branch-left p {
+    color: #333333;
+    font-family: 'Helvetica',arial;
+    font-size: 16px;
+    line-height: 19px;
+}
+
+    .branch-left p strong {
+        font-family: 'Helvetica-Bold',arial;
+        margin-top: 10px;
+        margin-right: 10px;
+        color: #000;
+        font-size: 16px;
+        font-weight: normal;
+        line-height: 19px;
+    }
+
+.innerpages p {
+    color: #333333;
+    font-family: 'Helvetica',arial;
+    font-size: 16px;
+    line-height: 19px;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
+    .innerpages p strong {
+        margin-top: 10px;
+        margin-right: 10px;
+        font-family: 'Helvetica-Bold',arial;
+        margin-top: 10px;
+        margin-right: 10px;
+        color: #000;
+        font-size: 16px;
+        font-weight: normal;
+        line-height: 19px;
+    }
+
+.innerpages ul li {
+    font-family: 'Helvetica',arial;
+    color: #000;
+    font-size: 16px;
+    font-weight: normal;
+    line-height: 19px;
+    list-style: circle outside none;
+    margin-left: 30px;
+    padding: 1px;
+}
+
+.enquiry h3 {
+    font-family: 'Helvetica-Bold',arial;
+}
+
+.enquiry .thankyoumessage {
+    color: #C9061D;
+    font-family: 'Helvetica',arial;
+    font-size: 16px;
+    line-height: 19px;
+    margin-top: 10px;
+}
+
+.modalBackground {
+    background-color: Gray;
+    filter: alpha(opacity=70);
+    opacity: 0.7;
+}
+
+.modalPopup {
+    background-color: #fff;
+    border-width: 1px;
+    border-style: solid;
+    border-color: Gray;
+    padding: 0px;
+    width: 250px;
+    font-family: 'Helvetica',arial;
+    font-size: 14px;
+    padding:10px;
+}
+
+.FooterScrip a {
+    color: #000;
+    font-family: 'Helvetica',arial;
+    font-size: 14px;
+}

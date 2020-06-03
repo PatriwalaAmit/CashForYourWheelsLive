@@ -1,0 +1,72 @@
+<%@ Master Language="C#" AutoEventWireup="true"
+    Inherits="Master_AdminPanel2" Codebehind="AdminPanel2.master.cs" %>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>Admin Panel</title>
+    <link href="../Admin/CSS/StyleSheet.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+    <form id="form1" runat="server">
+    <%--<asp:ScriptManager ID="ScriptManager1" runat="server">
+    </asp:ScriptManager>--%>
+    <AjaxToolKit:ToolkitScriptManager ID="ToolkitScriptManager1" runat="server" />
+        <table cellpadding="0px" cellspacing="0px" width="1000px" align="center">
+            <tr>
+                <td class="TitleScrip" style="text-align: right">
+                    <table cellspacing="2px" border="0" align="right">
+                        <tr>
+                            <td>
+                                <asp:HyperLink ID="HLHome" runat="server" Text="Home" CssClass="Table_Title_Label_White"
+                                    NavigateUrl="~/Admin/AdminHome.aspx" />
+                            </td>
+                            <td>
+                                <asp:Label ID="Label1" runat="server" Text="|" CssClass="Table_Title_Label_White"></asp:Label>
+                            </td>
+                            <td>
+                                <asp:LinkButton ID="btnLogOut" runat="server" Text="Logout" CssClass="Table_Title_Label_White"
+                                    OnClick="HLLogout_Click"></asp:LinkButton>
+                            </td>
+                            <td width="2px">
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+            <tr>
+                <td class="PageHeader_Bck" onclick="return fnHome();">
+                    <asp:HyperLink ID="HyperLink1" runat="server" Text="Admin Panel" CssClass="Table_Title_Label_White20" />
+                </td>
+            </tr>
+            <tr>
+                <td style="height: 500px; vertical-align: top">
+                    <table cellpadding="0" cellspacing="0" width="100%">
+                        <tr>
+                            <td style="vertical-align: top; padding-top: 5px; padding-bottom: 5px">
+                                <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                                </asp:ContentPlaceHolder>
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+            <%--Footer--%>
+            <tr>
+                <td class="FooterScrip" style="text-align: center; padding: 3px">
+                    <asp:Label ID="Label3" runat="server" Text="All Rights Reserved : @Company" CssClass="Table_Title_Label_White"></asp:Label>
+                    <br />
+                    <asp:Label ID="Label2" runat="server" Text="Powered By  SOLUTIONS" CssClass="Table_Title_Label_OffWhite"></asp:Label>
+                </td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>
+
+<script language="javascript" type="text/javascript">
+function fnHome()
+{
+    window.location.href='<%=AppConfig.SiteUrl %>'+'Admin/AdminHome.aspx';
+}
+</script>
+

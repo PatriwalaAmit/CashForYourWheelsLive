@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<siteMap xmlns="http://schemas.microsoft.com/AspNet/SiteMap-File-1.0" >
+	<siteMapNode url="~/Admin/AdminHome.aspx" title="Admin Home Page"  description="">
+		<siteMapNode url="~/Admin/AddEditAdmin.aspx" title="Manage Admin"  description="" />
+		<siteMapNode url="~/Admin/AdminList.aspx" title="Admin List"  description="" />
+		<siteMapNode url="~/Admin/AddEditCustomer.aspx" title="Manage Customer"  description="" />
+		<siteMapNode url="~/Admin/CouponList.aspx" title="Coupon List"  description="" />
+		<siteMapNode url="~/Admin/AddEditCoupon.aspx" title="Manage Coupon"  description="" />
+		<siteMapNode url="~/Admin/AddEditDiscount.aspx" title="Manage Group Discount"  description="" />
+		<siteMapNode url="~/Admin/GroupDiscount.aspx" title="Group Discount List"  description="" />
+		<siteMapNode url="~/Admin/AddEditNews.aspx" title="Manage News/Events"  description="" />
+		<siteMapNode url="~/Admin/NewsList.aspx" title="News/Events List"  description="" />
+		<siteMapNode url="~/Admin/FriendList.aspx" title="Tell a Friend List"  description="" />
+		<siteMapNode url="~/Admin/CMS.aspx" title="Content Management"  description="" />
+		<siteMapNode url="~/Admin/Shipping.aspx" title="Shipping"  description="" />
+		<siteMapNode url="~/Admin/AddEditShipping.aspx" title="Mangae Shipping"  description="" />
+		<siteMapNode url="~/Admin/PaymentInfo.aspx" title="Payment"  description="" />
+		<siteMapNode url="~/Admin/GeneralSetting.aspx" title="General Setting"  description="" />
+		<siteMapNode url="~/Admin/ProductAttributes.aspx" title="Product Attribute"  description="" />
+		<siteMapNode url="~/Admin/AddEdiAttribute.aspx" title="Manage Attribute"  description="" />
+		<siteMapNode url="~/Admin/AddProdAttribute.aspx" title="Manage Product Attribute"  description="" />
+		<siteMapNode url="~/Admin/AddEditDevice.aspx" title="Manage Device"  description="" />
+		<siteMapNode url="~/Admin/DeviceList.aspx" title="Device List"  description="" />
+		<siteMapNode url="~/Admin/AddEditDVR.aspx" title="Manage DVR"  description="" />
+		<siteMapNode url="~/Admin/DVRList.aspx" title="DVR List"  description="" />
+		<siteMapNode url="~/Admin/ManageBanner.aspx" title="Manage Banner"  description="" />
+		<!--<siteMapNode url="~/Admin/ProductFeedback.aspx" title="Product Feedback"  description="" />
+		<siteMapNode url="~/Admin/MostViewCategory.aspx" title="Most View Category"  description="" />
+		<siteMapNode url="~/Admin/MostViewProduct.aspx" title="Most View Product"  description="" />-->
+		<siteMapNode url="~/Admin/Statistics.aspx" title="Statistics"  description="" />
+
+
+	</siteMapNode>
+</siteMap>

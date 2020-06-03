@@ -1,0 +1,132 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true"
+    Inherits="Master_CarPageMaster" Codebehind="CarPageMaster.master.cs" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <link rel="SHORTCUT ICON" href="http://cashforyourwheels/images/icon.ico" />
+    <title>Cash For Your Wheels</title>   
+    <link href="../css/tab.css" rel="stylesheet" type="text/css" media="print, projection, screen" />
+    <link rel="stylesheet" href="../css/fonts.css" type="text/css" charset="utf-8" />
+    <link rel="stylesheet" media="all" href="../css/style.css" />
+    <link rel="stylesheet" media="all" href="../css/main.css" />
+    <meta name="viewport" content="initial-scale=1" />
+    <!--<link rel="stylesheet" media="all and (min-width: 1248px) and (max-width: 1407px)" href="grid-1218.css">
+    <link rel="stylesheet" media="all and (min-width: 1002px) and (max-width: 1407px)" href="css/grid-978.css">-->
+    <link rel="stylesheet" media="all and (min-width: 768px) and (max-width: 800px)"
+        href="../css/grid-748.css" />
+    <link rel="stylesheet" media="all and (min-width: 0px) and (max-width: 767px)" href="../css/grid-300.css" />
+    <!--[if lte IE 8]>
+
+    <script type="text/javascript" src="js/jquery-1.4.4.min.js"></script>
+    <script type="text/javascript" src="js/jquery.media-query.min.js"></script>
+
+    <script type="text/javascript">
+        $(function() {
+        $.mediaquery([
+        //{minWidth: 1248, maxWidth: 1407, href: 'css/grid-1218.css'},
+        //{minWidth: 1002, maxWidth: 1407, href: 'css/grid-978.css'},
+        {minWidth: 768, maxWidth: 800, href: 'css/grid-748.css'},
+        {minWidth: 0, maxWidth: 767, href: 'css/grid-300.css'}
+        ]);
+        });
+    </script>
+    <![endif]-->
+
+<script>
+    (function (i, s, o, g, r, a, m) {
+        i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
+            (i[r].q = i[r].q || []).push(arguments)
+        }, i[r].l = 1 * new Date(); a = s.createElement(o),
+  m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
+    })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+
+    ga('create', 'UA-37851457-1', 'auto');
+    ga('send', 'pageview');
+
+</script>
+
+
+<!-- Global site tag (gtag.js) - Google Ads: 1001292085 -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=AW-1001292085"></script>
+<script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+
+    gtag('config', 'AW-1001292085');
+    gtag('config', 'UA-37851457-1');
+
+</script>
+
+</head>
+<body>
+    <form id="frmCarWebsite" runat="server">
+    <div class="logo-bg">
+    </div>
+    <div id="wrap">
+        <div id="header">
+            <div class="logo">
+                <a id="A1" href="~/index.aspx" runat="server">
+                    <img id="Img1" src="~/images/logo.gif" width="454" height="93" alt="" runat="server" />
+                </a>
+            </div>
+            <div class="call">
+                The smart way to sell your vehicle<br>
+                <strong>Call: 0845-519-0898</strong>
+            </div>
+        </div>
+        <div class="menu">
+            <asp:LinkButton ID="aValueMyCar" class="active" runat="server" OnClick="aValueMyCar_Click">Value My Vehicle</asp:LinkButton>
+            <asp:LinkButton ID="aSellLeisure" class="sell-leisure" runat="server" OnClick="aSellLeisure_Click">Sell My Leisure Vehicle</asp:LinkButton>
+            <asp:LinkButton ID="aSellMotorbike" class="sell-motorbike" runat="server" OnClick="aSellMotorbike_Click">Sell My Motorbike</asp:LinkButton>
+            <asp:LinkButton ID="aBranchLocator" class="branch-locator" runat="server" OnClick="aBranchLocator_Click">Branch Locator</asp:LinkButton>
+            <asp:LinkButton ID="aTestimonials" class="testimonials" runat="server" OnClick="aTestimonials_Click" Visible="false">Testimonials</asp:LinkButton>
+            <asp:LinkButton ID="aNews" class="news" runat="server" OnClick="aNews_Click" Visible="false">News</asp:LinkButton>
+            <asp:LinkButton ID="aFAQ" class="faq" runat="server" PostBackUrl="~/faq.aspx">FAQ</asp:LinkButton>
+            <asp:LinkButton ID="aContact" class="news" runat="server" OnClick="aContactus_Click">Contact Us</asp:LinkButton>
+        </div>
+        <asp:ContentPlaceHolder ID="cpCarWebsite1" runat="server">
+        </asp:ContentPlaceHolder>
+        <div class="clear">
+        </div>
+    </div>
+    <div class="footer">
+        <div class="footer-in">
+            <%= BAL_CMS.GetDetailsByLinkName("Home Page Footer")%>
+        </div>
+    </div>
+    <%--<div id="car_bg">
+        <div id="wrap">
+            <div id="header">
+                <div class="logo">
+                    <a href="~/index.aspx" runat="server">
+                        <img src="~/images/logo.gif" alt="" runat="server" /></a>
+                </div>
+                <div class="top-link">
+                    <div style="float: left; font-size: 16px; margin-right: 35px; font-weight: bold;">
+                        Call: 0845-519-9068
+                    </div>
+                    <asp:LinkButton ID="aAboutUs" runat="server" PostBackUrl="~/about-us.aspx">About Us</asp:LinkButton>|
+                    <asp:LinkButton ID="aContactUs" runat="server" PostBackUrl="~/contact-us.aspx">Contact Us</asp:LinkButton>          
+                </div>
+                <div class="menu">
+                    <asp:LinkButton ID="aValueMyCar" class="value-my-car" runat="server" OnClick="aValueMyCar_Click">Value My Car</asp:LinkButton>
+                    <asp:LinkButton ID="aBranchLocator" class="branch-locator" runat="server" OnClick="aBranchLocator_Click">Branch Locator</asp:LinkButton>
+                    <asp:LinkButton ID="aTestimonials" class="testimonials" runat="server" OnClick="aTestimonials_Click">Testimonials</asp:LinkButton>
+                    <asp:LinkButton ID="aNews" class="news" runat="server" OnClick="aNews_Click">News</asp:LinkButton>
+                </div>
+            </div>
+            <div id="continer">
+                <asp:ContentPlaceHolder ID="cpCarWebsite1" runat="server">
+                </asp:ContentPlaceHolder>
+            </div>
+        </div>
+        <div class="footer">
+            All Rights Reserved © 2011 Cashforyourwheels
+        </div>
+    </div>--%>
+    </form>
+</body>
+</html>

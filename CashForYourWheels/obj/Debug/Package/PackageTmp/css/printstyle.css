@@ -1,0 +1,53 @@
+*{margin:0 0 0 0;padding:0 0 0 0}
+body {margin:0px;padding:10px;background:#000; width:0px auto; height:243px; font-size:12px;font-family:Arial, Helvetica, sans-serif; color:#5d5d5d;}
+
+img, div {border:0;}
+/*a:link, a:visited {text-decoration:none; outline:none;color:#c5352e}
+a:hover{text-decoration:none;color:#000}*/
+
+ul, li{ list-style:none; margin:0; padding:0}
+
+p { margin:10px 0 10px 0; padding:0}
+
+h1,h2 { margin:0; padding:0;}
+h1{ font-family:Arial, Helvetica, sans-serif; font-size:17px; margin:17px 0 15px 0; color:#8fc84b;}
+h2{ font-family:Arial, Helvetica, sans-serif; font-size:16px; margin:5px 0 5px 0; color:#2c3c60;}
+
+
+.clear{	clear: both;}
+.left{float:left}
+.right{float:right}
+
+.arht{ text-align:right}
+.alft{ text-align:left}
+.acenter{ text-align: center}
+.black{color:#000}
+.red{color:#aa2621}
+
+/*#wrap {margin:0px; padding:0px;}*/
+.main {background:url(../images/print-bg.png) repeat left top; width:1013px; height:313px; margin-top:15px; float:left;}
+.left {background:url(../images/print-left.png) no-repeat; float:left; width:15px; height:313px;margin-top:15px; }
+.right {background:url(../images/print-right.png) no-repeat; float:left; width:15px; height:313px;margin-top:15px; }
+
+.your-valuation {margin-top:15px; background:url(../images/your-valuation.png) no-repeat; width:207px; height:22px; float:left;}
+.print-your {margin-top:10px;margin-left:416px;width:198px; height:17px;}/*background:url(../images/print-your.png) no-repeat; */
+.your-left {margin-top:15px; background:url(../images/your-left.png) no-repeat; width:10px; height:187px; float:left;margin-left:265px;}
+.your-right {margin-top:15px; background:url(../images/your-right.png)no-repeat; width:7px; height:187px; float:left;}
+.your-bg {margin-top:16px; background:url(../images/your-bg.png) repeat; width:0px auto; height:186px; float:left;}
+
+.pay-bg {margin-top:9px; background:url(../images/pay-bg.png) no-repeat; width:484px; height:178px; float:left; font-family:Verdana, Arial, Helvetica, sans-serif, "Myriad Pro"; font-size:12px; color:#000000;margin-left:285px}
+
+.print-logo a {margin:7px 0 0 6px; background:url(../images/print-logo.png) no-repeat; width:156px; height:11px; float:left}
+
+.leftpart {width:290px; height:0px auto; float:left; margin-left:5px;}
+
+.refrences {font-family:Arial, Helvetica, sans-serif; font-size:12px;}
+
+
+.rightpart {width:170px; float:right; margin-right:5px;}
+.date {margin:7px 2px 0 0 ; float:right;}
+.datey {margin:7px 2px 0 0 ; float:right;}
+.date input {width:17px;  background:none; border:none; border-bottom:1px solid #000; font-weight:bold;}
+.datey input {width:35px;  background:none; border:none; border-bottom:1px solid #000; font-weight:bold;}
+.pound {margin-top:30px; background:url(../images/pound.jpg) no-repeat; width:87px; height:15px; float:right;}
+.pound input {width:75px; background:none; border:none; font-weight:bold; float:right; text-align:left;}

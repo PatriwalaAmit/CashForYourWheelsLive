@@ -1,0 +1,43 @@
+/*body { background: #fcf2e7 url(images/748-grid.png) repeat-y center top; }*/
+/*body {background:url(../images/mobile-bg.gif) repeat-x top #e6e5e5;}*/
+div#grid-description { background: url(images/grid-text-sprite.png) no-repeat 0px -500px; width: 768px;  }
+#wrap{width:auto;padding:0 20px 0 20px}
+.menu a{ margin:0 1% 0 0}
+#header .call{font-size:17px}
+.step , .registration-box{width:48%;}
+.registration-box{height:auto}
+.step ul li.step-1 , .step ul li.step-2 , .step ul li.step-3{background-size:30%;}
+.step ul li{font-size:13px;padding:10px 0 10px 122px;height:60px}
+.registration-box h2{font-size:20px;line-height:25px;padding:14px 0 14px 25px;background:url(../images/free.png) no-repeat scroll 95% 13px #C9061D;background-size:15%;}
+.registration-box input{margin:5%;width:80%;padding:0 12px 0 12px;height:60px;font-size:38px}
+.registration-box input.button{margin:0 0 20px 5%;width:89%;-moz-border-radius:31px;-webkit-border-radius:31px;-khtml-border-radius:31px;border-radius:31px;}
+
+.footer-in{width:auto;padding:25px 20px}
+.footer-in p{line-height:16px;font-size:13px;padding:0 0 16px 0}
+
+
+.your-car .car-detail .photo{width:250px}
+.your-car .car-detail .photo img{width:250px}
+.your-car .main-detail { width:390px}
+.your-car .main-detail ul li{font-size:14px}
+.your-car .main-detail ul li span{width:115px}
+.your-car .main-detail ul li b{}
+.your-car .main-detail ul li b span{padding:0 0 0 0;width:259px}
+
+.tooltip:hover span{border-radius:5px 5px;-moz-border-radius:5px;-webkit-border-radius:5px;box-shadow:5px 5px 5px rgba(0, 0, 0, 0.1);-webkit-box-shadow:5px 5px rgba(0, 0, 0, 0.1);-moz-box-shadow: 5px 5px rgba(0, 0, 0, 0.1);
+font-family:Calibri, Tahoma, Geneva, sans-serif;position:absolute;right:0em;top:2em;z-index:99;margin-left:0;width:230px;font-size:11px}
+.vehicle-details input.button{ margin-left:-127px;left:50%;position:relative}
+
+
+.valuation-details .left{width:58%}
+.valuation-details .right{width:37%}
+.valuation-details .left ul li{ font-size:16px}
+
+.innerpages{width:auto}
+.branch-right{float: right; width: 50%;margin-top:20px}
+.branch-left{float: left; width: 50%;}
+.branch-right img{width:100%}
+
+.vehicle-details a.button{ margin-left:-127px;left:50%;position:relative}
+.valuation-details .right .price span{font-size:35px}
+.your-car .book-appointment{width:335px}

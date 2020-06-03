@@ -1,0 +1,58 @@
+
+
+body {
+	margin:0 auto;
+	padding:0;
+	color:#000;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	background:#fff; }
+
+.clear { clear:both; }
+.left { float:left; }
+.right {float:right; }
+.noborder { border:0 none !important; }
+img, ul, li, a, h1, h2, h3, h4, p, div{ list-style:none; border:none; outline:none; margin:0; padding:0; text-decoration:none; }	
+a {color:#ecc9a0; text-decoration:none; cursor:pointer; }
+a:hover {color:#f7f7f7;}
+
+
+#main_wrapper {
+	width:750px;
+	margin:0 auto;
+	padding:0;
+
+	}	
+#top {}
+	
+img { behavior: url("iepngfix.htc") !important;}		
+
+
+/*.menu {height:96px; width:750px; background:#585a60; }*/
+.menu {height:96px; width:750px; background:#c1cccc; }
+
+.golpac{ width:226px; height:70px; border:0px solid #00FF00; padding:12px 0 0 19px; float:left;}
+.tex-r{ height:70px; width:465px; background:url(../images/tex-r.gif) top right no-repeat; float:right; margin:12px 20px 0px 0px; line-height:70px; position:relative}
+.tex-r .left-fade{ position:absolute; left:1px; top:0px; z-index:2}
+.tex-r .right-fade{ position:absolute; right:1px; top:0px; z-index:2}
+.tex-r marquee{ z-index:1; padding:1px; font-weight:bold; color:#46474c;}
+
+.wrapper {
+	margin:0 auto;
+	width:710px;
+	padding:0px 20px 0px 20px;
+	background: url(../images/wrapper-bg.gif) top left repeat-x #fff; border:0px solid #00FF00;  }
+.wrapper .leftpart{ margin:35px 0px 0px 0px; float:left}
+.wrapper .rightpart{float:right; width:553px;}	
+.wrapper .right { background:url(../images/login-here.jpg) no-repeat; height:195px; width:418px; margin:35px 56px 0 0;}	
+.wrapper .right table { margin:53px 0 0 0;  color:#ffffff; font-size:16px; font-weight:bold;}	
+.wrapper .right table input{width:171px;height:30px;line-height:28px;padding:0 5px 0 5px; border:none}
+.wrapper .right table input.button{ width:auto; height:auto; margin:5px 0 0 0; padding:0 0 0 0}
+.cont{padding:20px 0 0 0; width:543px; float:right}
+.cont .text{ border:1px solid #cccccc; padding:16px 16px 16px 16px; border-top:none; font-weight:bold; color:#4d4d4d; line-height:20px}
+/* for leftside */
+.footer{ background:url(../images/footer-bg.gif) repeat-x; height:44px; margin:20px 0 0 0; padding:0 20px 0 20px; line-height:43px; font-size:13px; font-weight:bold}
+.footer .left{ padding:0 60px 0 0 }
+.footer a{ color:#00427c}
+.footer a:hover{ color:#2c2c2c}
+
