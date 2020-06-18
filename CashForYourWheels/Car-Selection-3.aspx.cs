@@ -68,7 +68,14 @@ public partial class Car_Selection_3 : System.Web.UI.Page
                             int iYear = Convert.ToDateTime(((clsCarselection)(Session["userdata"])).FirstRegister).Year;
                             int iMonth = Convert.ToDateTime(((clsCarselection)(Session["userdata"])).FirstRegister).Month;
 
-                            dt = BAL_Valuation.GetValuation(((clsCarselection)(Session["userdata"])).CapId.ToString(), iYear, iMonth, ((clsCarselection)(Session["userdata"])).cs2_CurrentMileage + "!!" + Convert.ToString(Session["SValuation"]));
+                            DataTable dt1 = new DataTable();
+                            dt1 = BAL_Valuation.GetValuation(((clsCarselection)(Session["userdata"])).CapId.ToString(), iYear, iMonth, ((clsCarselection)(Session["userdata"])).cs2_CurrentMileage + "!!" + Convert.ToString(Session["SValuation"]));
+
+                            if (dt1.Rows.Count > 0)
+                            {
+                                dt.Clear();
+                                dt = dt1;
+                            }
 
                             //if (dt.Rows.Count == 0)
                             //{
