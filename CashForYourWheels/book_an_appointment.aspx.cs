@@ -219,6 +219,12 @@ public partial class book_an_appointment : System.Web.UI.Page
                         sbMessage.Replace("@address", ConfigurationManager.AppSettings["gloucester_address"].ToString());
                         ccEmail = ConfigurationManager.AppSettings["adminEmailAddress"].ToString();
                         break;
+                    case "swindon":
+                        brnchEmailAddress = ConfigurationManager.AppSettings["swindon_email"].ToString();
+                        sbMessage.Replace("@officenumber", ConfigurationManager.AppSettings["swindon_phone"].ToString());
+                        sbMessage.Replace("@address", ConfigurationManager.AppSettings["swindon_address"].ToString());
+                        ccEmail = ConfigurationManager.AppSettings["adminEmailAddress"].ToString();
+                        break;
                     default:
                         brnchEmailAddress = "";
                         sbMessage.Replace("@officenumber", "01452835619");

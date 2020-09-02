@@ -5,3 +5,10 @@
 *.cache
 *.txt
 CashForYourWheels/CashForYourWheels.Publish.xml
+*.suo
+CashForYourWheels/bin/CashForYourWheels.dll
+*.pdb
+*.xml
+*.dll
+*.txt
+*.txt

@@ -1505,3 +1505,201 @@ System.IndexOutOfRangeException: Index was outside the bounds of the array.
 03/06/2020 16:24:36.063 [1] [DEBUG] - With Rounding - AdjClean: 9725 AdjAvg: 9100 AdjRetail: 11200 AdjBelow: 8475
 03/06/2020 16:24:36.065 [1] [DEBUG] - GetValuation finished
 03/06/2020 16:24:36.065 [1] [DEBUG] - Exited program
+03/06/2020 17:12:22.376 [1] [DEBUG] - Entered program
+03/06/2020 17:12:22.407 [1] [DEBUG] - Entered program with args: 70743^2016^9^lqhb15oejt^45000^C
+03/06/2020 17:12:22.407 [1] [DEBUG] - Calling GetValuation
+03/06/2020 17:12:22.532 [1] [DEBUG] - minClean: 9975 minAvg: 9325 minRetail: 11450 minBelow: 8700
+03/06/2020 17:12:22.532 [1] [DEBUG] - maxClean: 9000 maxAvg: 8400 maxRetail: 10495 maxBelow: 7825
+03/06/2020 17:12:22.532 [1] [DEBUG] - No Rounding - AdjClean: 9735 AdjAvg: 9095 AdjRetail: 11215 AdjBelow: 8485
+03/06/2020 17:12:22.533 [1] [DEBUG] - With Rounding - AdjClean: 9725 AdjAvg: 9100 AdjRetail: 11200 AdjBelow: 8475
+03/06/2020 17:12:22.537 [1] [DEBUG] - GetValuation finished
+03/06/2020 17:12:22.537 [1] [DEBUG] - Exited program
+18/06/2020 08:31:55.390 [1] [DEBUG] - Entered program
+18/06/2020 08:31:55.423 [1] [DEBUG] - Entered program with args: 41275^2009^12^2eyo5r3svi^72000^C
+18/06/2020 08:31:55.423 [1] [DEBUG] - Calling GetValuation
+18/06/2020 08:31:55.856 [1] [DEBUG] - minClean: 9600 minAvg: 8950 minRetail: 11950 minBelow: 8325
+18/06/2020 08:31:55.856 [1] [DEBUG] - maxClean: 7975 maxAvg: 7425 maxRetail: 10250 maxBelow: 6900
+18/06/2020 08:31:55.856 [1] [DEBUG] - No Rounding - AdjClean: 8412 AdjAvg: 7850 AdjRetail: 10718 AdjBelow: 7291
+18/06/2020 08:31:55.857 [1] [DEBUG] - With Rounding - AdjClean: 8400 AdjAvg: 7850 AdjRetail: 10700 AdjBelow: 7300
+18/06/2020 08:31:55.864 [1] [DEBUG] - GetValuation finished
+18/06/2020 08:31:55.864 [1] [DEBUG] - Exited program
+18/06/2020 08:33:51.319 [1] [DEBUG] - Entered program
+18/06/2020 08:33:51.349 [1] [DEBUG] - Entered program with args: 56687^2013^12^2eyo5r3svi^80000^C
+18/06/2020 08:33:51.349 [1] [DEBUG] - Calling GetValuation
+18/06/2020 08:33:51.472 [1] [DEBUG] - minClean: 3050 minAvg: 2725 minRetail: 4450 minBelow: 2400
+18/06/2020 08:33:51.473 [1] [DEBUG] - maxClean: 3050 maxAvg: 2725 maxRetail: 4450 maxBelow: 2400
+18/06/2020 08:33:51.473 [1] [DEBUG] - No Rounding - AdjClean: 3050 AdjAvg: 2725 AdjRetail: 4450 AdjBelow: 2400
+18/06/2020 08:33:51.473 [1] [DEBUG] - With Rounding - AdjClean: 3050 AdjAvg: 2725 AdjRetail: 4450 AdjBelow: 2400
+18/06/2020 08:33:51.475 [1] [DEBUG] - GetValuation finished
+18/06/2020 08:33:51.475 [1] [DEBUG] - Exited program
+18/06/2020 09:05:31.940 [1] [DEBUG] - Entered program
+18/06/2020 09:05:31.996 [1] [DEBUG] - Entered program with args: 56687^2013^12^2eyo5r3svi^80000^C
+18/06/2020 09:05:31.996 [1] [DEBUG] - Calling GetValuation
+18/06/2020 09:05:32.155 [1] [DEBUG] - minClean: 3050 minAvg: 2725 minRetail: 4450 minBelow: 2400
+18/06/2020 09:05:32.155 [1] [DEBUG] - maxClean: 3050 maxAvg: 2725 maxRetail: 4450 maxBelow: 2400
+18/06/2020 09:05:32.155 [1] [DEBUG] - No Rounding - AdjClean: 3050 AdjAvg: 2725 AdjRetail: 4450 AdjBelow: 2400
+18/06/2020 09:05:32.156 [1] [DEBUG] - With Rounding - AdjClean: 3050 AdjAvg: 2725 AdjRetail: 4450 AdjBelow: 2400
+18/06/2020 09:05:32.212 [1] [DEBUG] - GetValuation finished
+18/06/2020 09:05:32.212 [1] [DEBUG] - Exited program
+18/06/2020 09:07:57.322 [1] [DEBUG] - Entered program
+18/06/2020 09:07:57.352 [1] [DEBUG] - Entered program with args: 56687^2013^12^e2h0mg3ul0^80000^C
+18/06/2020 09:07:57.352 [1] [DEBUG] - Calling GetValuation
+18/06/2020 09:07:57.697 [1] [DEBUG] - minClean: 3050 minAvg: 2725 minRetail: 4450 minBelow: 2400
+18/06/2020 09:07:57.697 [1] [DEBUG] - maxClean: 3050 maxAvg: 2725 maxRetail: 4450 maxBelow: 2400
+18/06/2020 09:07:57.697 [1] [DEBUG] - No Rounding - AdjClean: 3050 AdjAvg: 2725 AdjRetail: 4450 AdjBelow: 2400
+18/06/2020 09:07:57.698 [1] [DEBUG] - With Rounding - AdjClean: 3050 AdjAvg: 2725 AdjRetail: 4450 AdjBelow: 2400
+18/06/2020 09:07:57.714 [1] [DEBUG] - GetValuation finished
+18/06/2020 09:07:57.714 [1] [DEBUG] - Exited program
+18/06/2020 09:09:44.437 [1] [DEBUG] - Entered program
+18/06/2020 09:09:44.466 [1] [DEBUG] - Entered program with args: 56687^2013^12^hnmm40ivql^80000^C
+18/06/2020 09:09:44.467 [1] [DEBUG] - Calling GetValuation
+18/06/2020 09:09:44.588 [1] [DEBUG] - minClean: 3050 minAvg: 2725 minRetail: 4450 minBelow: 2400
+18/06/2020 09:09:44.588 [1] [DEBUG] - maxClean: 3050 maxAvg: 2725 maxRetail: 4450 maxBelow: 2400
+18/06/2020 09:09:44.588 [1] [DEBUG] - No Rounding - AdjClean: 3050 AdjAvg: 2725 AdjRetail: 4450 AdjBelow: 2400
+18/06/2020 09:09:44.589 [1] [DEBUG] - With Rounding - AdjClean: 3050 AdjAvg: 2725 AdjRetail: 4450 AdjBelow: 2400
+18/06/2020 09:09:44.624 [1] [DEBUG] - GetValuation finished
+18/06/2020 09:09:44.624 [1] [DEBUG] - Exited program
+18/06/2020 09:11:19.937 [1] [DEBUG] - Entered program
+18/06/2020 09:11:19.966 [1] [DEBUG] - Entered program with args: 41275^2009^12^hnmm40ivql^10000^C
+18/06/2020 09:11:19.966 [1] [DEBUG] - Calling GetValuation
+18/06/2020 09:11:20.053 [1] [DEBUG] - minClean: 12300 minAvg: 11600 minRetail: 14695 minBelow: 10900
+18/06/2020 09:11:20.053 [1] [DEBUG] - maxClean: 12300 maxAvg: 11600 maxRetail: 14695 maxBelow: 10900
+18/06/2020 09:11:20.053 [1] [DEBUG] - No Rounding - AdjClean: 12300 AdjAvg: 11600 AdjRetail: 14695 AdjBelow: 10900
+18/06/2020 09:11:20.053 [1] [DEBUG] - With Rounding - AdjClean: 12300 AdjAvg: 11600 AdjRetail: 14700 AdjBelow: 10900
+18/06/2020 09:11:20.053 [1] [DEBUG] - GetValuation finished
+18/06/2020 09:11:20.053 [1] [DEBUG] - Exited program
+18/06/2020 09:13:30.400 [1] [DEBUG] - Entered program
+18/06/2020 09:13:30.426 [1] [DEBUG] - Entered program with args: 41275^2009^12^hnmm40ivql^72000^C
+18/06/2020 09:13:30.426 [1] [DEBUG] - Calling GetValuation
+18/06/2020 09:13:30.515 [1] [DEBUG] - minClean: 9600 minAvg: 8950 minRetail: 11950 minBelow: 8325
+18/06/2020 09:13:30.515 [1] [DEBUG] - maxClean: 7975 maxAvg: 7425 maxRetail: 10250 maxBelow: 6900
+18/06/2020 09:13:30.515 [1] [DEBUG] - No Rounding - AdjClean: 8412 AdjAvg: 7850 AdjRetail: 10718 AdjBelow: 7291
+18/06/2020 09:13:30.516 [1] [DEBUG] - With Rounding - AdjClean: 8400 AdjAvg: 7850 AdjRetail: 10700 AdjBelow: 7300
+18/06/2020 09:13:30.517 [1] [DEBUG] - GetValuation finished
+18/06/2020 09:13:30.517 [1] [DEBUG] - Exited program
+18/06/2020 09:22:10.093 [1] [DEBUG] - Entered program
+18/06/2020 09:22:10.117 [1] [DEBUG] - Entered program with args: 41275^2009^12^viwafsluh1^10000^C
+18/06/2020 09:22:10.117 [1] [DEBUG] - Calling GetValuation
+18/06/2020 09:22:10.189 [1] [DEBUG] - minClean: 12300 minAvg: 11600 minRetail: 14695 minBelow: 10900
+18/06/2020 09:22:10.189 [1] [DEBUG] - maxClean: 12300 maxAvg: 11600 maxRetail: 14695 maxBelow: 10900
+18/06/2020 09:22:10.190 [1] [DEBUG] - No Rounding - AdjClean: 12300 AdjAvg: 11600 AdjRetail: 14695 AdjBelow: 10900
+18/06/2020 09:22:10.190 [1] [DEBUG] - With Rounding - AdjClean: 12300 AdjAvg: 11600 AdjRetail: 14700 AdjBelow: 10900
+18/06/2020 09:22:10.193 [1] [DEBUG] - GetValuation finished
+18/06/2020 09:22:10.193 [1] [DEBUG] - Exited program
+18/06/2020 09:22:10.751 [1] [DEBUG] - Entered program
+18/06/2020 09:22:10.791 [1] [DEBUG] - Entered program with args: 41275^2009^12^viwafsluh1^10000^C
+18/06/2020 09:22:10.794 [1] [DEBUG] - Calling GetValuation
+18/06/2020 09:22:11.004 [1] [DEBUG] - minClean: 12300 minAvg: 11600 minRetail: 14695 minBelow: 10900
+18/06/2020 09:22:11.004 [1] [DEBUG] - maxClean: 12300 maxAvg: 11600 maxRetail: 14695 maxBelow: 10900
+18/06/2020 09:22:11.004 [1] [DEBUG] - No Rounding - AdjClean: 12300 AdjAvg: 11600 AdjRetail: 14695 AdjBelow: 10900
+18/06/2020 09:22:11.004 [1] [DEBUG] - With Rounding - AdjClean: 12300 AdjAvg: 11600 AdjRetail: 14700 AdjBelow: 10900
+18/06/2020 09:22:11.020 [1] [DEBUG] - GetValuation finished
+18/06/2020 09:22:11.020 [1] [DEBUG] - Exited program
+29/06/2020 04:42:54.369 [1] [DEBUG] - Entered program
+29/06/2020 04:42:54.399 [1] [DEBUG] - Entered program with args: 26890^2007^10^snuihlswkp^115000^C
+29/06/2020 04:42:54.400 [1] [DEBUG] - Calling GetValuation
+29/06/2020 04:42:54.524 [1] [ERROR] - Error in GetValuation
+System.IndexOutOfRangeException: Index was outside the bounds of the array.
+   at BAL_Valuation.ProcessData(DataTable results, String mileage, String session) in c:\Users\Mark\Downloads\parallelvaluation\ParallelValuation\ParallelValuation\BAL_Valuation.cs:line 75
+   at BAL_Valuation.GetValuation(String uvtid, Int32 year, Int32 month, String mileage, String session) in c:\Users\Mark\Downloads\parallelvaluation\ParallelValuation\ParallelValuation\BAL_Valuation.cs:line 63
+29/06/2020 04:42:54.541 [1] [DEBUG] - GetValuation finished
+29/06/2020 04:42:54.541 [1] [DEBUG] - Exited program
+29/06/2020 04:42:54.914 [1] [DEBUG] - Entered program
+29/06/2020 04:42:54.945 [1] [DEBUG] - Entered program with args: 26890^2007^10^snuihlswkp^115000^C
+29/06/2020 04:42:54.945 [1] [DEBUG] - Calling GetValuation
+29/06/2020 04:42:55.093 [1] [ERROR] - Error in GetValuation
+System.IndexOutOfRangeException: Index was outside the bounds of the array.
+   at BAL_Valuation.ProcessData(DataTable results, String mileage, String session) in c:\Users\Mark\Downloads\parallelvaluation\ParallelValuation\ParallelValuation\BAL_Valuation.cs:line 75
+   at BAL_Valuation.GetValuation(String uvtid, Int32 year, Int32 month, String mileage, String session) in c:\Users\Mark\Downloads\parallelvaluation\ParallelValuation\ParallelValuation\BAL_Valuation.cs:line 63
+29/06/2020 04:42:55.105 [1] [DEBUG] - GetValuation finished
+29/06/2020 04:42:55.105 [1] [DEBUG] - Exited program
+29/06/2020 04:47:59.006 [1] [DEBUG] - Entered program
+29/06/2020 04:47:59.053 [1] [DEBUG] - Entered program with args: 26890^2007^10^snuihlswkp^115000^C
+29/06/2020 04:47:59.053 [1] [DEBUG] - Calling GetValuation
+29/06/2020 04:47:59.179 [1] [ERROR] - Error in GetValuation
+System.IndexOutOfRangeException: Index was outside the bounds of the array.
+   at BAL_Valuation.ProcessData(DataTable results, String mileage, String session) in c:\Users\Mark\Downloads\parallelvaluation\ParallelValuation\ParallelValuation\BAL_Valuation.cs:line 75
+   at BAL_Valuation.GetValuation(String uvtid, Int32 year, Int32 month, String mileage, String session) in c:\Users\Mark\Downloads\parallelvaluation\ParallelValuation\ParallelValuation\BAL_Valuation.cs:line 63
+29/06/2020 04:47:59.187 [1] [DEBUG] - GetValuation finished
+29/06/2020 04:47:59.187 [1] [DEBUG] - Exited program
+29/06/2020 04:53:50.642 [1] [DEBUG] - Entered program
+29/06/2020 04:53:50.672 [1] [DEBUG] - Entered program with args: 57352^2013^10^snuihlswkp^77000^C
+29/06/2020 04:53:50.672 [1] [DEBUG] - Calling GetValuation
+29/06/2020 04:53:50.778 [1] [DEBUG] - minClean: 9925 minAvg: 9275 minRetail: 11450 minBelow: 8650
+29/06/2020 04:53:50.778 [1] [DEBUG] - maxClean: 8525 maxAvg: 7925 maxRetail: 9995 maxBelow: 7350
+29/06/2020 04:53:50.778 [1] [DEBUG] - No Rounding - AdjClean: 8683 AdjAvg: 8060 AdjRetail: 10154 AdjBelow: 7489
+29/06/2020 04:53:50.779 [1] [DEBUG] - With Rounding - AdjClean: 8675 AdjAvg: 8050 AdjRetail: 10150 AdjBelow: 7500
+29/06/2020 04:53:50.780 [1] [DEBUG] - GetValuation finished
+29/06/2020 04:53:50.780 [1] [DEBUG] - Exited program
+18/07/2020 07:24:20.010 [1] [DEBUG] - Entered program
+18/07/2020 07:24:20.061 [1] [DEBUG] - Entered program with args: 53528^2012^9^g1bspfivia^80000^C
+18/07/2020 07:24:20.061 [1] [DEBUG] - Calling GetValuation
+18/07/2020 07:24:20.426 [1] [DEBUG] - minClean: 4500 minAvg: 4100 minRetail: 5895 minBelow: 3725
+18/07/2020 07:24:20.426 [1] [DEBUG] - maxClean: 4500 maxAvg: 4100 maxRetail: 5895 maxBelow: 3725
+18/07/2020 07:24:20.426 [1] [DEBUG] - No Rounding - AdjClean: 4500 AdjAvg: 4100 AdjRetail: 5895 AdjBelow: 3725
+18/07/2020 07:24:20.427 [1] [DEBUG] - With Rounding - AdjClean: 4500 AdjAvg: 4100 AdjRetail: 5900 AdjBelow: 3725
+18/07/2020 07:24:20.447 [1] [DEBUG] - GetValuation finished
+18/07/2020 07:24:20.447 [1] [DEBUG] - Exited program
+27/07/2020 13:36:49.704 [1] [DEBUG] - Entered program
+27/07/2020 13:36:49.735 [1] [DEBUG] - Entered program with args: 61305^2015^3^g1bspfivia^91000^C
+27/07/2020 13:36:49.737 [1] [DEBUG] - Calling GetValuation
+27/07/2020 13:36:50.122 [1] [DEBUG] - minClean: 7375 minAvg: 6850 minRetail: 8825 minBelow: 6350
+27/07/2020 13:36:50.122 [1] [DEBUG] - maxClean: 5575 maxAvg: 5150 maxRetail: 6975 maxBelow: 4750
+27/07/2020 13:36:50.122 [1] [DEBUG] - No Rounding - AdjClean: 5980 AdjAvg: 5548 AdjRetail: 7399 AdjBelow: 5110
+27/07/2020 13:36:50.122 [1] [DEBUG] - With Rounding - AdjClean: 5975 AdjAvg: 5550 AdjRetail: 7400 AdjBelow: 5100
+27/07/2020 13:36:50.127 [1] [DEBUG] - GetValuation finished
+27/07/2020 13:36:50.127 [1] [DEBUG] - Exited program
+23/08/2020 09:42:34.572 [1] [DEBUG] - Entered program
+23/08/2020 09:42:34.604 [1] [DEBUG] - Entered program with args: 48065^2011^3^ambqhkpaot^80000^C
+23/08/2020 09:42:34.604 [1] [DEBUG] - Calling GetValuation
+23/08/2020 09:42:35.478 [1] [DEBUG] - minClean: 4175 minAvg: 3800 minRetail: 5575 minBelow: 3450
+23/08/2020 09:42:35.478 [1] [DEBUG] - maxClean: 4175 maxAvg: 3800 maxRetail: 5575 maxBelow: 3450
+23/08/2020 09:42:35.478 [1] [DEBUG] - No Rounding - AdjClean: 4175 AdjAvg: 3800 AdjRetail: 5575 AdjBelow: 3450
+23/08/2020 09:42:35.478 [1] [DEBUG] - With Rounding - AdjClean: 4175 AdjAvg: 3800 AdjRetail: 5575 AdjBelow: 3450
+23/08/2020 09:42:35.488 [1] [DEBUG] - GetValuation finished
+23/08/2020 09:42:35.488 [1] [DEBUG] - Exited program
+23/08/2020 10:03:20.542 [1] [DEBUG] - Entered program
+23/08/2020 10:03:20.571 [1] [DEBUG] - Entered program with args: 48065^2011^3^boniqehxi2^80000^C
+23/08/2020 10:03:20.571 [1] [DEBUG] - Calling GetValuation
+23/08/2020 10:03:20.846 [1] [DEBUG] - minClean: 4175 minAvg: 3800 minRetail: 5575 minBelow: 3450
+23/08/2020 10:03:20.846 [1] [DEBUG] - maxClean: 4175 maxAvg: 3800 maxRetail: 5575 maxBelow: 3450
+23/08/2020 10:03:20.846 [1] [DEBUG] - No Rounding - AdjClean: 4175 AdjAvg: 3800 AdjRetail: 5575 AdjBelow: 3450
+23/08/2020 10:03:20.846 [1] [DEBUG] - With Rounding - AdjClean: 4175 AdjAvg: 3800 AdjRetail: 5575 AdjBelow: 3450
+23/08/2020 10:03:20.852 [1] [DEBUG] - GetValuation finished
+23/08/2020 10:03:20.852 [1] [DEBUG] - Exited program
+23/08/2020 10:09:19.951 [1] [DEBUG] - Entered program
+23/08/2020 10:09:19.982 [1] [DEBUG] - Entered program with args: 48065^2011^3^ambqhkpaot^80000^C
+23/08/2020 10:09:19.982 [1] [DEBUG] - Calling GetValuation
+23/08/2020 10:09:20.310 [1] [DEBUG] - minClean: 4175 minAvg: 3800 minRetail: 5575 minBelow: 3450
+23/08/2020 10:09:20.310 [1] [DEBUG] - maxClean: 4175 maxAvg: 3800 maxRetail: 5575 maxBelow: 3450
+23/08/2020 10:09:20.310 [1] [DEBUG] - No Rounding - AdjClean: 4175 AdjAvg: 3800 AdjRetail: 5575 AdjBelow: 3450
+23/08/2020 10:09:20.311 [1] [DEBUG] - With Rounding - AdjClean: 4175 AdjAvg: 3800 AdjRetail: 5575 AdjBelow: 3450
+23/08/2020 10:09:20.317 [1] [DEBUG] - GetValuation finished
+23/08/2020 10:09:20.317 [1] [DEBUG] - Exited program
+02/09/2020 16:16:10.590 [1] [DEBUG] - Entered program
+02/09/2020 16:16:10.631 [1] [DEBUG] - Entered program with args: 34988^2009^7^akwebn0xix^10000^C
+02/09/2020 16:16:10.631 [1] [DEBUG] - Calling GetValuation
+02/09/2020 16:16:10.991 [1] [ERROR] - Error in GetValuation
+System.IndexOutOfRangeException: Index was outside the bounds of the array.
+   at BAL_Valuation.ProcessData(DataTable results, String mileage, String session) in c:\Users\Mark\Downloads\parallelvaluation\ParallelValuation\ParallelValuation\BAL_Valuation.cs:line 75
+   at BAL_Valuation.GetValuation(String uvtid, Int32 year, Int32 month, String mileage, String session) in c:\Users\Mark\Downloads\parallelvaluation\ParallelValuation\ParallelValuation\BAL_Valuation.cs:line 63
+02/09/2020 16:16:11.047 [1] [DEBUG] - GetValuation finished
+02/09/2020 16:16:11.047 [1] [DEBUG] - Exited program
+02/09/2020 16:16:42.807 [1] [DEBUG] - Entered program
+02/09/2020 16:16:42.839 [1] [DEBUG] - Entered program with args: 34988^2009^7^akwebn0xix^100000^C
+02/09/2020 16:16:42.839 [1] [DEBUG] - Calling GetValuation
+02/09/2020 16:16:43.019 [1] [DEBUG] - minClean: 1225 minAvg: 970 minRetail: 2475 minBelow: 720
+02/09/2020 16:16:43.020 [1] [DEBUG] - maxClean: 840 maxAvg: 610 maxRetail: 1850 maxBelow: 390
+02/09/2020 16:16:43.020 [1] [DEBUG] - No Rounding - AdjClean: 955 AdjAvg: 700 AdjRetail: 2025 AdjBelow: 480
+02/09/2020 16:16:43.021 [1] [DEBUG] - With Rounding - AdjClean: 960 AdjAvg: 700 AdjRetail: 2025 AdjBelow: 480
+02/09/2020 16:16:43.022 [1] [DEBUG] - GetValuation finished
+02/09/2020 16:16:43.022 [1] [DEBUG] - Exited program
+02/09/2020 16:29:59.368 [1] [DEBUG] - Entered program
+02/09/2020 16:29:59.398 [1] [DEBUG] - Entered program with args: 34988^2009^7^akwebn0xix^100000^C
+02/09/2020 16:29:59.398 [1] [DEBUG] - Calling GetValuation
+02/09/2020 16:29:59.787 [1] [DEBUG] - minClean: 1225 minAvg: 970 minRetail: 2475 minBelow: 720
+02/09/2020 16:29:59.787 [1] [DEBUG] - maxClean: 840 maxAvg: 610 maxRetail: 1850 maxBelow: 390
+02/09/2020 16:29:59.787 [1] [DEBUG] - No Rounding - AdjClean: 955 AdjAvg: 700 AdjRetail: 2025 AdjBelow: 480
+02/09/2020 16:29:59.788 [1] [DEBUG] - With Rounding - AdjClean: 960 AdjAvg: 700 AdjRetail: 2025 AdjBelow: 480
+02/09/2020 16:29:59.813 [1] [DEBUG] - GetValuation finished
+02/09/2020 16:29:59.813 [1] [DEBUG] - Exited program
