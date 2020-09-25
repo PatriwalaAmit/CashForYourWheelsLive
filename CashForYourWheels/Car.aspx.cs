@@ -187,7 +187,9 @@ public partial class Car : System.Web.UI.Page
                             ((clsCarselection)Session["userdata"]).Colour = lblColour.Text;
                             ((clsCarselection)Session["userdata"]).EngineSize = lblEngineSize.Text;
                             ((clsCarselection)Session["userdata"]).Transmission = lblTransmission.Text;
-                            ((clsCarselection)Session["userdata"]).FirstRegister = lblRegistered.Text;                          
+                            ((clsCarselection)Session["userdata"]).FirstRegister = lblRegistered.Text;
+                            ((clsCarselection)Session["userdata"]).NoOfDoors = Convert.ToString(dataset.Tables["vehicle"].Rows[0]["NumberOfDoors"]);
+                            ((clsCarselection)Session["userdata"]).BodyStyle = Convert.ToString(dataset.Tables["vehicle"].Rows[0]["BodyStyleDescription"]);
                         }
                     }
                     else if (dataset.Tables["Details"] != null)

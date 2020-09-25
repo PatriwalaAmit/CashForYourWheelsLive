@@ -11,7 +11,7 @@ public partial class Admin_branchtime : System.Web.UI.Page
     {
         if (!IsPostBack)
         {
-            DataTable dt = BAL_location.GetCMSByCMSId(0);
+            DataTable dt = BAL_location.GetCMSByCMSId(-10);
             ddlBranchName.DataSource = dt;
             ddlBranchName.DataValueField = dt.Columns["LocationId"].ToString();
             ddlBranchName.DataTextField = dt.Columns["LocationName"].ToString();            
@@ -23,6 +23,7 @@ public partial class Admin_branchtime : System.Web.UI.Page
             {
                 string[] strFrom = item["WorkingHoursFrom"].ToString().Split(' ');
                 string[] strTo = item["WorkingHoursTo"].ToString().Split(' ');
+                chkBranchClosed.Checked = Convert.ToBoolean(item["IsClosed"]);
 
                 switch (item["WorkingDay"].ToString())
                 {
@@ -80,19 +81,19 @@ public partial class Admin_branchtime : System.Web.UI.Page
     {
         //BAL_branchtime.UpdateTiming();
         //monday
-        BAL_branchtime.UpdateTiming(ddlBranchName.SelectedValue.ToString(),ddlMondayFrom.SelectedItem.Text + " "+ ddlMondayFromAMPM.SelectedItem.Text,ddlMondayTo.SelectedItem.Text + " "+ ddlMondayToAMPM.SelectedItem.Text,"Monday");
+        BAL_branchtime.UpdateTiming(ddlBranchName.SelectedValue.ToString(),ddlMondayFrom.SelectedItem.Text + " "+ ddlMondayFromAMPM.SelectedItem.Text,ddlMondayTo.SelectedItem.Text + " "+ ddlMondayToAMPM.SelectedItem.Text,"Monday",chkBranchClosed.Checked);
         //tuesday
-        BAL_branchtime.UpdateTiming(ddlBranchName.SelectedValue.ToString(), ddlTuesdayFrom.SelectedItem.Text + " " + ddlTuesdayFromAMPM.SelectedItem.Text, ddlTuesdayTo.SelectedItem.Text + " " + ddlTuesdayToAMPM.SelectedItem.Text, "Tuesday");
+        BAL_branchtime.UpdateTiming(ddlBranchName.SelectedValue.ToString(), ddlTuesdayFrom.SelectedItem.Text + " " + ddlTuesdayFromAMPM.SelectedItem.Text, ddlTuesdayTo.SelectedItem.Text + " " + ddlTuesdayToAMPM.SelectedItem.Text, "Tuesday", chkBranchClosed.Checked);
         //wednesday
-        BAL_branchtime.UpdateTiming(ddlBranchName.SelectedValue.ToString(), ddlWednesdayFrom.SelectedItem.Text + " " + ddlWednesdayFromAMPM.SelectedItem.Text, ddlWednesdayTo.SelectedItem.Text + " " + ddlWednesdayToAMPM.SelectedItem.Text, "Wednesday");
+        BAL_branchtime.UpdateTiming(ddlBranchName.SelectedValue.ToString(), ddlWednesdayFrom.SelectedItem.Text + " " + ddlWednesdayFromAMPM.SelectedItem.Text, ddlWednesdayTo.SelectedItem.Text + " " + ddlWednesdayToAMPM.SelectedItem.Text, "Wednesday", chkBranchClosed.Checked);
         //thursday
-        BAL_branchtime.UpdateTiming(ddlBranchName.SelectedValue.ToString(), ddlThursdayFrom.SelectedItem.Text + " " + ddlThursdayFromAMPM.SelectedItem.Text, ddlThursdayTo.SelectedItem.Text + " " + ddlThursdayToAMPM.SelectedItem.Text, "Thursday");
+        BAL_branchtime.UpdateTiming(ddlBranchName.SelectedValue.ToString(), ddlThursdayFrom.SelectedItem.Text + " " + ddlThursdayFromAMPM.SelectedItem.Text, ddlThursdayTo.SelectedItem.Text + " " + ddlThursdayToAMPM.SelectedItem.Text, "Thursday", chkBranchClosed.Checked);
         //friday
-        BAL_branchtime.UpdateTiming(ddlBranchName.SelectedValue.ToString(), ddlFridayFrom.SelectedItem.Text + " " + ddlFridayFromAMPM.SelectedItem.Text, ddlFridayTo.SelectedItem.Text + " " + ddlFridayToAMPM.SelectedItem.Text, "Friday");
+        BAL_branchtime.UpdateTiming(ddlBranchName.SelectedValue.ToString(), ddlFridayFrom.SelectedItem.Text + " " + ddlFridayFromAMPM.SelectedItem.Text, ddlFridayTo.SelectedItem.Text + " " + ddlFridayToAMPM.SelectedItem.Text, "Friday", chkBranchClosed.Checked);
         //sat
-        BAL_branchtime.UpdateTiming(ddlBranchName.SelectedValue.ToString(), ddlSaturdayFrom.SelectedItem.Text + " " + ddlSaturdayFromAMPM.SelectedItem.Text, ddlSaturdayTo.SelectedItem.Text + " " + ddlSaturdayToAMPM.SelectedItem.Text, "Saturday");
+        BAL_branchtime.UpdateTiming(ddlBranchName.SelectedValue.ToString(), ddlSaturdayFrom.SelectedItem.Text + " " + ddlSaturdayFromAMPM.SelectedItem.Text, ddlSaturdayTo.SelectedItem.Text + " " + ddlSaturdayToAMPM.SelectedItem.Text, "Saturday", chkBranchClosed.Checked);
         //sun
-        BAL_branchtime.UpdateTiming(ddlBranchName.SelectedValue.ToString(), ddlSundayFrom.SelectedItem.Text + " " + ddlSundayFromAMPM.SelectedItem.Text, ddlSundayTo.SelectedItem.Text + " " + ddlSundayToAMPM.SelectedItem.Text, "Sunday");
+        BAL_branchtime.UpdateTiming(ddlBranchName.SelectedValue.ToString(), ddlSundayFrom.SelectedItem.Text + " " + ddlSundayFromAMPM.SelectedItem.Text, ddlSundayTo.SelectedItem.Text + " " + ddlSundayToAMPM.SelectedItem.Text, "Sunday", chkBranchClosed.Checked);
 
         lblMessage.Text = "Record Updated successfully";
 
@@ -106,6 +107,7 @@ public partial class Admin_branchtime : System.Web.UI.Page
         {
             string[] strFrom = item["WorkingHoursFrom"].ToString().Split(' ');
             string[] strTo = item["WorkingHoursTo"].ToString().Split(' ');
+            chkBranchClosed.Checked = Convert.ToBoolean(item["IsClosed"]);
 
             switch (item["WorkingDay"].ToString())
             {

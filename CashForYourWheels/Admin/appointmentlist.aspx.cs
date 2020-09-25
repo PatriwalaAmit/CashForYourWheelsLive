@@ -12,7 +12,7 @@ public partial class Admin_appointmentlist : BasePage
     {
         if (!IsPostBack)
         {
-            DataTable dt = BAL_location.GetCMSByCMSId(0);
+            DataTable dt = BAL_location.GetCMSByCMSId(-10);
             ddlBranchName.DataSource = dt;
             ddlBranchName.DataValueField = dt.Columns["LocationId"].ToString();
             ddlBranchName.DataTextField = dt.Columns["LocationName"].ToString();

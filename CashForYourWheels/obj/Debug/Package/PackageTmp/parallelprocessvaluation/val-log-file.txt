@@ -1703,3 +1703,75 @@ System.IndexOutOfRangeException: Index was outside the bounds of the array.
 02/09/2020 16:29:59.788 [1] [DEBUG] - With Rounding - AdjClean: 960 AdjAvg: 700 AdjRetail: 2025 AdjBelow: 480
 02/09/2020 16:29:59.813 [1] [DEBUG] - GetValuation finished
 02/09/2020 16:29:59.813 [1] [DEBUG] - Exited program
+12/09/2020 10:39:59.383 [1] [DEBUG] - Entered program
+12/09/2020 10:39:59.419 [1] [DEBUG] - Entered program with args: 44061^2009^9^xbk0w45wmp^10000^C
+12/09/2020 10:39:59.419 [1] [DEBUG] - Calling GetValuation
+12/09/2020 10:39:59.752 [1] [ERROR] - Error in GetValuation
+System.IndexOutOfRangeException: Index was outside the bounds of the array.
+   at BAL_Valuation.ProcessData(DataTable results, String mileage, String session) in c:\Users\Mark\Downloads\parallelvaluation\ParallelValuation\ParallelValuation\BAL_Valuation.cs:line 75
+   at BAL_Valuation.GetValuation(String uvtid, Int32 year, Int32 month, String mileage, String session) in c:\Users\Mark\Downloads\parallelvaluation\ParallelValuation\ParallelValuation\BAL_Valuation.cs:line 63
+12/09/2020 10:39:59.810 [1] [DEBUG] - GetValuation finished
+12/09/2020 10:39:59.810 [1] [DEBUG] - Exited program
+12/09/2020 11:36:33.954 [1] [DEBUG] - Entered program
+12/09/2020 11:36:33.985 [1] [DEBUG] - Entered program with args: 44061^2009^9^xbk0w45wmp^80000^C
+12/09/2020 11:36:33.985 [1] [DEBUG] - Calling GetValuation
+12/09/2020 11:36:34.415 [1] [DEBUG] - minClean: 9400 minAvg: 8750 minRetail: 11750 minBelow: 8125
+12/09/2020 11:36:34.415 [1] [DEBUG] - maxClean: 7025 maxAvg: 6475 maxRetail: 9325 maxBelow: 5950
+12/09/2020 11:36:34.415 [1] [DEBUG] - No Rounding - AdjClean: 8810 AdjAvg: 8190 AdjRetail: 11150 AdjBelow: 7585
+12/09/2020 11:36:34.415 [1] [DEBUG] - With Rounding - AdjClean: 8800 AdjAvg: 8200 AdjRetail: 11150 AdjBelow: 7575
+12/09/2020 11:36:34.425 [1] [DEBUG] - GetValuation finished
+12/09/2020 11:36:34.425 [1] [DEBUG] - Exited program
+12/09/2020 11:50:15.672 [1] [DEBUG] - Entered program
+12/09/2020 11:50:15.708 [1] [DEBUG] - Entered program with args: 44061^2009^9^xbk0w45wmp^80000^C
+12/09/2020 11:50:15.708 [1] [DEBUG] - Calling GetValuation
+12/09/2020 11:50:16.120 [1] [DEBUG] - minClean: 9400 minAvg: 8750 minRetail: 11750 minBelow: 8125
+12/09/2020 11:50:16.120 [1] [DEBUG] - maxClean: 7025 maxAvg: 6475 maxRetail: 9325 maxBelow: 5950
+12/09/2020 11:50:16.120 [1] [DEBUG] - No Rounding - AdjClean: 8810 AdjAvg: 8190 AdjRetail: 11150 AdjBelow: 7585
+12/09/2020 11:50:16.121 [1] [DEBUG] - With Rounding - AdjClean: 8800 AdjAvg: 8200 AdjRetail: 11150 AdjBelow: 7575
+12/09/2020 11:50:16.220 [1] [DEBUG] - GetValuation finished
+12/09/2020 11:50:16.220 [1] [DEBUG] - Exited program
+16/09/2020 07:44:36.375 [1] [DEBUG] - Entered program
+16/09/2020 07:44:36.407 [1] [DEBUG] - Entered program with args: 54436^2016^5^4erebjmbjk^14000^C
+16/09/2020 07:44:36.407 [1] [DEBUG] - Calling GetValuation
+16/09/2020 07:44:36.655 [1] [ERROR] - Error in GetValuation
+System.IndexOutOfRangeException: Index was outside the bounds of the array.
+   at BAL_Valuation.ProcessData(DataTable results, String mileage, String session) in c:\Users\Mark\Downloads\parallelvaluation\ParallelValuation\ParallelValuation\BAL_Valuation.cs:line 75
+   at BAL_Valuation.GetValuation(String uvtid, Int32 year, Int32 month, String mileage, String session) in c:\Users\Mark\Downloads\parallelvaluation\ParallelValuation\ParallelValuation\BAL_Valuation.cs:line 63
+16/09/2020 07:44:36.896 [1] [DEBUG] - GetValuation finished
+16/09/2020 07:44:36.896 [1] [DEBUG] - Exited program
+16/09/2020 09:38:35.707 [1] [DEBUG] - Entered program
+16/09/2020 09:38:35.739 [1] [DEBUG] - Entered program with args: 54436^2016^5^4erebjmbjk^14000^C
+16/09/2020 09:38:35.739 [1] [DEBUG] - Calling GetValuation
+16/09/2020 09:38:36.004 [1] [ERROR] - Error in GetValuation
+System.IndexOutOfRangeException: Index was outside the bounds of the array.
+   at BAL_Valuation.ProcessData(DataTable results, String mileage, String session) in c:\Users\Mark\Downloads\parallelvaluation\ParallelValuation\ParallelValuation\BAL_Valuation.cs:line 75
+   at BAL_Valuation.GetValuation(String uvtid, Int32 year, Int32 month, String mileage, String session) in c:\Users\Mark\Downloads\parallelvaluation\ParallelValuation\ParallelValuation\BAL_Valuation.cs:line 63
+16/09/2020 09:38:36.004 [1] [DEBUG] - GetValuation finished
+16/09/2020 09:38:36.004 [1] [DEBUG] - Exited program
+16/09/2020 10:25:00.430 [1] [DEBUG] - Entered program
+16/09/2020 10:25:00.463 [1] [DEBUG] - Entered program with args: 54436^2016^5^4erebjmbjk^14000^C
+16/09/2020 10:25:00.464 [1] [DEBUG] - Calling GetValuation
+16/09/2020 10:25:00.719 [1] [ERROR] - Error in GetValuation
+System.IndexOutOfRangeException: Index was outside the bounds of the array.
+   at BAL_Valuation.ProcessData(DataTable results, String mileage, String session) in c:\Users\Mark\Downloads\parallelvaluation\ParallelValuation\ParallelValuation\BAL_Valuation.cs:line 75
+   at BAL_Valuation.GetValuation(String uvtid, Int32 year, Int32 month, String mileage, String session) in c:\Users\Mark\Downloads\parallelvaluation\ParallelValuation\ParallelValuation\BAL_Valuation.cs:line 63
+16/09/2020 10:25:00.729 [1] [DEBUG] - GetValuation finished
+16/09/2020 10:25:00.729 [1] [DEBUG] - Exited program
+22/09/2020 07:51:14.443 [1] [DEBUG] - Entered program
+22/09/2020 07:51:14.483 [1] [DEBUG] - Entered program with args: 85962^2019^1^4erebjmbjk^3000^C
+22/09/2020 07:51:14.483 [1] [DEBUG] - Calling GetValuation
+22/09/2020 07:51:14.903 [1] [DEBUG] - minClean: 11700 minAvg: 11000 minRetail: 13195 minBelow: 10350
+22/09/2020 07:51:14.903 [1] [DEBUG] - maxClean: 11200 maxAvg: 10500 maxRetail: 12695 maxBelow: 9875
+22/09/2020 07:51:14.903 [1] [DEBUG] - No Rounding - AdjClean: 11590 AdjAvg: 10890 AdjRetail: 13085 AdjBelow: 10246
+22/09/2020 07:51:14.904 [1] [DEBUG] - With Rounding - AdjClean: 11600 AdjAvg: 10900 AdjRetail: 13100 AdjBelow: 10250
+22/09/2020 07:51:14.913 [1] [DEBUG] - GetValuation finished
+22/09/2020 07:51:14.913 [1] [DEBUG] - Exited program
+25/09/2020 12:53:40.041 [1] [DEBUG] - Entered program
+25/09/2020 12:53:40.071 [1] [DEBUG] - Entered program with args: 44061^2009^9^4erebjmbjk^10000^C
+25/09/2020 12:53:40.071 [1] [DEBUG] - Calling GetValuation
+25/09/2020 12:53:40.463 [1] [ERROR] - Error in GetValuation
+System.IndexOutOfRangeException: Index was outside the bounds of the array.
+   at BAL_Valuation.ProcessData(DataTable results, String mileage, String session) in c:\Users\Mark\Downloads\parallelvaluation\ParallelValuation\ParallelValuation\BAL_Valuation.cs:line 75
+   at BAL_Valuation.GetValuation(String uvtid, Int32 year, Int32 month, String mileage, String session) in c:\Users\Mark\Downloads\parallelvaluation\ParallelValuation\ParallelValuation\BAL_Valuation.cs:line 63
+25/09/2020 12:53:40.474 [1] [DEBUG] - GetValuation finished
+25/09/2020 12:53:40.474 [1] [DEBUG] - Exited program

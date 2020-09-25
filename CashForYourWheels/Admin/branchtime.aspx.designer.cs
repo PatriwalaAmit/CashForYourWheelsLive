@@ -57,6 +57,15 @@ public partial class Admin_branchtime {
     protected global::System.Web.UI.WebControls.DropDownList ddlBranchName;
     
     /// <summary>
+    /// chkBranchClosed control.
+    /// </summary>
+    /// <remarks>
+    /// Auto-generated field.
+    /// To modify move field declaration from designer file to code-behind file.
+    /// </remarks>
+    protected global::System.Web.UI.WebControls.CheckBox chkBranchClosed;
+    
+    /// <summary>
     /// ddlMondayFrom control.
     /// </summary>
     /// <remarks>

@@ -160,6 +160,10 @@ public partial class book_an_appointment : System.Web.UI.Page
                     {
                         strCustFileName = Server.MapPath("~/MailContent") + "\\cardiff-appconfirmation.html";
                     }
+                    else if (Session["branchname"].ToString().ToLower().Trim() == "swindon")
+                    {
+                        strCustFileName = Server.MapPath("~/MailContent") + "\\swindon-appconfirmation.html";
+                    }
 
                 }
 
@@ -335,7 +339,7 @@ public partial class book_an_appointment : System.Web.UI.Page
 
         ddlChoosedate.Items.Insert(0, new ListItem("Please select date", "-1"));
         //timing selection
-        ddlAvailabletimeslot.Items.Insert(0, new ListItem("Please select time","-1"));
+        ddlAvailabletimeslot.Items.Insert(0, new ListItem("Please select time", "-1"));
 
         log.Debug("Done Choosebranch");
     }
@@ -372,15 +376,48 @@ public partial class book_an_appointment : System.Web.UI.Page
                     DateTime start;
                     DateTime finish;
 
-                    if (startsplit.Length > 1)
-                        start = new DateTime(1900, 1, 1, int.Parse(startsplit[0]), int.Parse(startsplit[1]), 0);
-                    else
+                    if (starttime[1].ToLower() == "am")
+                    {
                         start = new DateTime(1900, 1, 1, int.Parse(startsplit[0]), 0, 0);
-
-                    if (endsplit.Length > 1)
-                        finish = new DateTime(1900, 1, 1, int.Parse(endsplit[0]) + 12, int.Parse(endsplit[1]), 0);
+                    }
                     else
-                        finish = new DateTime(1900, 1, 1, int.Parse(endsplit[0]) + 12, 0, 0);
+                    {
+                        if (startsplit[0].Trim() == "12")
+                        {
+                            start = new DateTime(1900, 1, 1, int.Parse(startsplit[1]), 0, 0);
+                        }
+                        else
+                        {
+                            if (startsplit.Length > 1)
+                                start = new DateTime(1900, 1, 1, int.Parse(startsplit[0]) + 12, int.Parse(startsplit[1]), 0);
+                            else
+                                start = new DateTime(1900, 1, 1, int.Parse(startsplit[0]) + 12, 0, 0);
+                        }
+
+                    }
+
+                    if (endtime[1].ToLower() == "am")
+                    {
+                        finish = new DateTime(1900, 1, 1, int.Parse(endsplit[0]), 0, 0);
+                    }
+                    else
+                    {
+                        if (endsplit[0].Trim() == "12")
+                            finish = new DateTime(1900, 1, 1, int.Parse(endsplit[0]), 0, 0);
+                        else
+                        {
+                            if (endsplit.Length > 1)
+                                finish = new DateTime(1900, 1, 1, int.Parse(endsplit[0]) + 12, int.Parse(endsplit[1]), 0);
+                            else
+                                finish = new DateTime(1900, 1, 1, int.Parse(endsplit[0]) + 12, 0, 0);
+                        }
+
+                    }
+
+                    //if (endsplit.Length > 1)
+                    //    finish = new DateTime(1900, 1, 1, int.Parse(endsplit[0]) + 12, int.Parse(endsplit[1]), 0);
+                    //else
+                    //    finish = new DateTime(1900, 1, 1, int.Parse(endsplit[0]) + 12, 0, 0);
 
                     DateTime current = start;
                     while (current < finish)
@@ -389,14 +426,15 @@ public partial class book_an_appointment : System.Web.UI.Page
 
                         if (Session["branchname"] != null)
                         {
-                            if (Session["branchname"].ToString().ToLower() == "Bristol".ToLower())
-                            {
-                                current = current.AddMinutes(45);
-                            }
-                            else
-                            {
-                                current = current.AddMinutes(30);
-                            }
+                            current = current.AddMinutes(30);
+                            //if (Session["branchname"].ToString().ToLower() == "Bristol".ToLower())
+                            //{
+                            //    current = current.AddMinutes(45);
+                            //}
+                            //else
+                            //{
+                            //    current = current.AddMinutes(30);
+                            //}
                         }
                     }
                 }

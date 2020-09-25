@@ -35,7 +35,7 @@ public class BAL_branchtime
         return gda.ExecuteSelectCommand(comm); 
     }
 
-    public static bool UpdateTiming(string LocationId,string WorkingHoursFrom,string WorkingHoursTo,string WorkingDay)
+    public static bool UpdateTiming(string LocationId,string WorkingHoursFrom,string WorkingHoursTo,string WorkingDay, Boolean IsClosed)
     {
         // get a configured DbCommand object
         GenericDataAccess gda = new GenericDataAccess();
@@ -73,6 +73,12 @@ public class BAL_branchtime
         param1.ParameterName = "@Status";
         param1.Value = 0;
         param1.DbType = DbType.String;
+        comm.Parameters.Add(param1);
+
+        param1 = comm.CreateParameter();
+        param1.ParameterName = "@IsClosed";
+        param1.Value = IsClosed;
+        param1.DbType = DbType.Boolean;
         comm.Parameters.Add(param1);
                 
         if (gda.ExecuteNonQuery(comm) > 0)

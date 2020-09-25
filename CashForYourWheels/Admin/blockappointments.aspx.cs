@@ -17,7 +17,7 @@ public partial class Admin_blockappointments : BasePage
                 FillGrid(1);
 
                 //get the brach information
-                DataTable dt = BAL_location.GetCMSByCMSId(0);
+                DataTable dt = BAL_location.GetCMSByCMSId(-10);
                 ddlBranchName.DataSource = dt;
                 ddlBranchName.DataValueField = dt.Columns["LocationId"].ToString();
                 ddlBranchName.DataTextField = dt.Columns["LocationName"].ToString();

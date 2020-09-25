@@ -56,7 +56,7 @@
                                             </td>
                                             <td class="table_td_left">
                                                 <asp:DropDownList ID="ddlBranchName" runat="server" AutoPostBack="true" OnSelectedIndexChanged="ddlBranchName_SelectedIndexChange"></asp:DropDownList>
-                                                &nbsp;<span class="red">*</span>
+                                                &nbsp;<span class="red">*</span>&nbsp;&nbsp;<asp:CheckBox ID="chkBranchClosed" Text="Is Branch Closed?" runat="server" Checked="false" />
                                             </td>
                                         </tr>
                                         <tr>

@@ -10,10 +10,8 @@ using System.Data;
 public class clsCarselection
 {
     private string _type;
-    public string type { get { return _type; } set { _type = value; } }
-   
+    public string type { get { return _type; } set { _type = value; } } 
     
-
     private string _ModelVariant;
     public string ModelVariant { get { return _ModelVariant; } set { _ModelVariant = value; } }
 
@@ -52,6 +50,12 @@ public class clsCarselection
 
     private string _EngineSize;
     public string EngineSize { get { return _EngineSize; } set { _EngineSize = value; } }
+
+    private string _NoOfDoors;
+    public string NoOfDoors { get { return _NoOfDoors; } set { _NoOfDoors = value; } }
+
+    private string _BodyStyle;
+    public string BodyStyle { get { return _BodyStyle; } set { _BodyStyle = value; } }
 
     private string _FirstRegister;
     public string FirstRegister { get { return _FirstRegister; } set { _FirstRegister = value; } }

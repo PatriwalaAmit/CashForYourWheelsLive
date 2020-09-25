@@ -301,6 +301,8 @@ public partial class Car_Selection_3 : System.Web.UI.Page
                                 sb.Replace("@transmission", ((clsCarselection)(Session["userdata"])).Transmission);
                                 sb.Replace("@enginesize", ((clsCarselection)(Session["userdata"])).EngineSize);
                                 sb.Replace("@firstregistered", ((clsCarselection)(Session["userdata"])).FirstRegister);
+                                sb.Replace("@noofdoors", ((clsCarselection)(Session["userdata"])).NoOfDoors);
+                                sb.Replace("@bodystyle", ((clsCarselection)(Session["userdata"])).BodyStyle);
 
                                 sb.Replace("@cs2_currentmileage", ((clsCarselection)(Session["userdata"])).cs2_CurrentMileage);
                                 sb.Replace("@cs2_carimport", ((clsCarselection)(Session["userdata"])).cs2_CarImport);
