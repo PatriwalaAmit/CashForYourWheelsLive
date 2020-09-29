@@ -1775,3 +1775,12 @@ System.IndexOutOfRangeException: Index was outside the bounds of the array.
    at BAL_Valuation.GetValuation(String uvtid, Int32 year, Int32 month, String mileage, String session) in c:\Users\Mark\Downloads\parallelvaluation\ParallelValuation\ParallelValuation\BAL_Valuation.cs:line 63
 25/09/2020 12:53:40.474 [1] [DEBUG] - GetValuation finished
 25/09/2020 12:53:40.474 [1] [DEBUG] - Exited program
+29/09/2020 08:46:43.926 [1] [DEBUG] - Entered program
+29/09/2020 08:46:43.958 [1] [DEBUG] - Entered program with args: 44061^2009^9^udsiwvs2ft^72000^C
+29/09/2020 08:46:43.958 [1] [DEBUG] - Calling GetValuation
+29/09/2020 08:46:44.423 [1] [DEBUG] - minClean: 9400 minAvg: 8750 minRetail: 11750 minBelow: 8125
+29/09/2020 08:46:44.423 [1] [DEBUG] - maxClean: 7025 maxAvg: 6475 maxRetail: 9325 maxBelow: 5950
+29/09/2020 08:46:44.423 [1] [DEBUG] - No Rounding - AdjClean: 9282 AdjAvg: 8638 AdjRetail: 11630 AdjBelow: 8017
+29/09/2020 08:46:44.423 [1] [DEBUG] - With Rounding - AdjClean: 9275 AdjAvg: 8650 AdjRetail: 11650 AdjBelow: 8025
+29/09/2020 08:46:44.425 [1] [DEBUG] - GetValuation finished
+29/09/2020 08:46:44.425 [1] [DEBUG] - Exited program

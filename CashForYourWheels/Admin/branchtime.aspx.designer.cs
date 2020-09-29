@@ -57,15 +57,6 @@ public partial class Admin_branchtime {
     protected global::System.Web.UI.WebControls.DropDownList ddlBranchName;
     
     /// <summary>
-    /// chkBranchClosed control.
-    /// </summary>
-    /// <remarks>
-    /// Auto-generated field.
-    /// To modify move field declaration from designer file to code-behind file.
-    /// </remarks>
-    protected global::System.Web.UI.WebControls.CheckBox chkBranchClosed;
-    
-    /// <summary>
     /// ddlMondayFrom control.
     /// </summary>
     /// <remarks>
@@ -100,6 +91,15 @@ public partial class Admin_branchtime {
     /// To modify move field declaration from designer file to code-behind file.
     /// </remarks>
     protected global::System.Web.UI.WebControls.DropDownList ddlMondayToAMPM;
+    
+    /// <summary>
+    /// chkBranchClosedMon control.
+    /// </summary>
+    /// <remarks>
+    /// Auto-generated field.
+    /// To modify move field declaration from designer file to code-behind file.
+    /// </remarks>
+    protected global::System.Web.UI.WebControls.CheckBox chkBranchClosedMon;
     
     /// <summary>
     /// ddlTuesdayFrom control.
@@ -138,6 +138,15 @@ public partial class Admin_branchtime {
     protected global::System.Web.UI.WebControls.DropDownList ddlTuesdayToAMPM;
     
     /// <summary>
+    /// chkBranchClosedTue control.
+    /// </summary>
+    /// <remarks>
+    /// Auto-generated field.
+    /// To modify move field declaration from designer file to code-behind file.
+    /// </remarks>
+    protected global::System.Web.UI.WebControls.CheckBox chkBranchClosedTue;
+    
+    /// <summary>
     /// ddlWednesdayFrom control.
     /// </summary>
     /// <remarks>
@@ -172,6 +181,15 @@ public partial class Admin_branchtime {
     /// To modify move field declaration from designer file to code-behind file.
     /// </remarks>
     protected global::System.Web.UI.WebControls.DropDownList ddlWednesdayToAMPM;
+    
+    /// <summary>
+    /// chkBranchClosedWed control.
+    /// </summary>
+    /// <remarks>
+    /// Auto-generated field.
+    /// To modify move field declaration from designer file to code-behind file.
+    /// </remarks>
+    protected global::System.Web.UI.WebControls.CheckBox chkBranchClosedWed;
     
     /// <summary>
     /// ddlThursdayFrom control.
@@ -210,6 +228,15 @@ public partial class Admin_branchtime {
     protected global::System.Web.UI.WebControls.DropDownList ddlThursdayToAMPM;
     
     /// <summary>
+    /// chkBranchClosedThu control.
+    /// </summary>
+    /// <remarks>
+    /// Auto-generated field.
+    /// To modify move field declaration from designer file to code-behind file.
+    /// </remarks>
+    protected global::System.Web.UI.WebControls.CheckBox chkBranchClosedThu;
+    
+    /// <summary>
     /// ddlFridayFrom control.
     /// </summary>
     /// <remarks>
@@ -244,6 +271,15 @@ public partial class Admin_branchtime {
     /// To modify move field declaration from designer file to code-behind file.
     /// </remarks>
     protected global::System.Web.UI.WebControls.DropDownList ddlFridayToAMPM;
+    
+    /// <summary>
+    /// chkBranchClosedFri control.
+    /// </summary>
+    /// <remarks>
+    /// Auto-generated field.
+    /// To modify move field declaration from designer file to code-behind file.
+    /// </remarks>
+    protected global::System.Web.UI.WebControls.CheckBox chkBranchClosedFri;
     
     /// <summary>
     /// ddlSaturdayFrom control.
@@ -282,6 +318,15 @@ public partial class Admin_branchtime {
     protected global::System.Web.UI.WebControls.DropDownList ddlSaturdayToAMPM;
     
     /// <summary>
+    /// chkBranchClosedSat control.
+    /// </summary>
+    /// <remarks>
+    /// Auto-generated field.
+    /// To modify move field declaration from designer file to code-behind file.
+    /// </remarks>
+    protected global::System.Web.UI.WebControls.CheckBox chkBranchClosedSat;
+    
+    /// <summary>
     /// ddlSundayFrom control.
     /// </summary>
     /// <remarks>
@@ -316,6 +361,15 @@ public partial class Admin_branchtime {
     /// To modify move field declaration from designer file to code-behind file.
     /// </remarks>
     protected global::System.Web.UI.WebControls.DropDownList ddlSundayToAMPM;
+    
+    /// <summary>
+    /// chkBranchClosedSun control.
+    /// </summary>
+    /// <remarks>
+    /// Auto-generated field.
+    /// To modify move field declaration from designer file to code-behind file.
+    /// </remarks>
+    protected global::System.Web.UI.WebControls.CheckBox chkBranchClosedSun;
     
     /// <summary>
     /// lblMessage control.

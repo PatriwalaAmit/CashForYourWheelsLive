@@ -283,46 +283,49 @@ public partial class book_an_appointment : System.Web.UI.Page
         {
             foreach (DataRow dr in dtBrachtiming.Rows)
             {
-                if (dr["WorkingHoursFrom"].ToString() != dr["WorkingHoursTo"].ToString())
+                if (!Convert.ToBoolean(dr["IsClosed"]))
                 {
-                    //select the date using the week
-                    string strDay = dr["WorkingDay"].ToString();
-                    DateTime currentdate = System.DateTime.Now;
-                    currentdate = currentdate.AddDays(selecteddate);
-                    //Response.Write("<br>" + currentdate.Date.DayOfWeek.ToString().ToLower() + " " + strDay.ToString().ToLower());
-
-                    //check the blockdate
-                    Boolean Isblocked = false;
-                    foreach (DataRow item in dtAppBlockDate.Rows)
+                    if (dr["WorkingHoursFrom"].ToString() != dr["WorkingHoursTo"].ToString())
                     {
-                        //if (Convert.ToDateTime(item["appdate"].ToString()) == currentdate)
-                        if (Convert.ToDateTime(item["appdate"].ToString()).ToShortDateString() == currentdate.ToShortDateString())
+                        //select the date using the week
+                        string strDay = dr["WorkingDay"].ToString();
+                        DateTime currentdate = System.DateTime.Now;
+                        currentdate = currentdate.AddDays(selecteddate);
+                        //Response.Write("<br>" + currentdate.Date.DayOfWeek.ToString().ToLower() + " " + strDay.ToString().ToLower());
+
+                        //check the blockdate
+                        Boolean Isblocked = false;
+                        foreach (DataRow item in dtAppBlockDate.Rows)
                         {
-                            if (item["op"].ToString().ToLower() == "Restrict".ToLower())
+                            //if (Convert.ToDateTime(item["appdate"].ToString()) == currentdate)
+                            if (Convert.ToDateTime(item["appdate"].ToString()).ToShortDateString() == currentdate.ToShortDateString())
                             {
-                                Isblocked = true;
+                                if (item["op"].ToString().ToLower() == "Restrict".ToLower())
+                                {
+                                    Isblocked = true;
+                                }
                             }
                         }
-                    }
 
-                    if (currentdate.Date.DayOfWeek.ToString().ToLower() == strDay.ToLower())
-                    {
-                        if (!Isblocked)
+                        if (currentdate.Date.DayOfWeek.ToString().ToLower() == strDay.ToLower())
                         {
-                            if (Session["branchname"].ToString().ToLower() == "swansea")
+                            if (!Isblocked)
                             {
-                                if (currentdate.CompareTo(DateTime.Parse("02/12/2013")) <= 0)
+                                if (Session["branchname"].ToString().ToLower() == "swansea")
+                                {
+                                    if (currentdate.CompareTo(DateTime.Parse("02/12/2013")) <= 0)
+                                    {
+                                        DataRow drAp = dtApDate.NewRow();
+                                        drAp["ApDate"] = currentdate.ToShortDateString();
+                                        dtApDate.Rows.Add(drAp);
+                                    }
+                                }
+                                else
                                 {
                                     DataRow drAp = dtApDate.NewRow();
                                     drAp["ApDate"] = currentdate.ToShortDateString();
                                     dtApDate.Rows.Add(drAp);
                                 }
-                            }
-                            else
-                            {
-                                DataRow drAp = dtApDate.NewRow();
-                                drAp["ApDate"] = currentdate.ToShortDateString();
-                                dtApDate.Rows.Add(drAp);
                             }
                         }
                     }

@@ -1,12 +1,11 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Master/AdminPanel.master" AutoEventWireup="true" Inherits="Admin_branchtime" Codebehind="branchtime.aspx.cs" %>
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Master/AdminPanel.master" AutoEventWireup="true"
+    Inherits="Admin_branchtime" CodeBehind="branchtime.aspx.cs" %>
 
 <%@ Register Src="~/UserControls/ProgressBar.ascx" TagName="ProgressBar" TagPrefix="uc2" %>
 <%@ Register Src="~/UserControls/UserSiteMap.ascx" TagName="UserSiteMap" TagPrefix="uc1" %>
 <%@ Register Assembly="FredCK.FCKeditorV2" Namespace="FredCK.FCKeditorV2" TagPrefix="FCKEd" %>
 <%@ Register Assembly="CustomPagingGridView" Namespace="CustomPagingGridView" TagPrefix="cc1" %>
-
 <asp:Content ID="Content1" ContentPlaceHolderID="ContentPlaceHolder1" runat="Server">
-
     <table cellpadding="0" cellspacing="0" width="100%" class="Table_Border_Black">
         <tr>
             <td>
@@ -26,7 +25,6 @@
             </td>
         </tr>
     </table>
-
     <table cellpadding="0" cellspacing="0" width="100%" class="">
         <tr>
             <td class="table_td_left" colspan="2">
@@ -44,7 +42,8 @@
                 <table class="Table_Border_Black" cellspacing="0" cellpadding="0" width="100%">
                     <tbody>
                         <tr>
-                            <th scope="colgroup"></th>
+                            <th scope="colgroup">
+                            </th>
                         </tr>
                         <tr>
                             <td class="table_td_left">
@@ -55,16 +54,17 @@
                                                 <asp:Label ID="Label2" runat="server" CssClass="label" Text="Location Name:"></asp:Label>
                                             </td>
                                             <td class="table_td_left">
-                                                <asp:DropDownList ID="ddlBranchName" runat="server" AutoPostBack="true" OnSelectedIndexChanged="ddlBranchName_SelectedIndexChange"></asp:DropDownList>
-                                                &nbsp;<span class="red">*</span>&nbsp;&nbsp;<asp:CheckBox ID="chkBranchClosed" Text="Is Branch Closed?" runat="server" Checked="false" />
+                                                <asp:DropDownList ID="ddlBranchName" runat="server" AutoPostBack="true" OnSelectedIndexChanged="ddlBranchName_SelectedIndexChange">
+                                                </asp:DropDownList>
+                                                &nbsp;<span class="red">*</span><%--&nbsp;&nbsp;<asp:CheckBox ID="chkBranchClosed" Text="Is Branch Closed?" runat="server" Checked="false" />--%>
                                             </td>
                                         </tr>
                                         <tr>
                                             <td class="table_td_left">
                                                 Monday
                                             </td>
-                                            <td class="table_td_left" style="vertical-align:top">
-                                                FROM : 
+                                            <td class="table_td_left" style="vertical-align: top">
+                                                FROM :
                                                 <asp:DropDownList ID="ddlMondayFrom" runat="server">
                                                     <asp:ListItem Text="1" Value="1"></asp:ListItem>
                                                     <asp:ListItem Text="1:30" Value="1:30"></asp:ListItem>
@@ -95,8 +95,7 @@
                                                     <asp:ListItem Text="AM" Value="AM"></asp:ListItem>
                                                     <asp:ListItem Text="PM" Value="PM"></asp:ListItem>
                                                 </asp:DropDownList>
-
-                                                TO : 
+                                                TO :
                                                 <asp:DropDownList ID="ddlMondayTo" runat="server">
                                                     <asp:ListItem Text="1" Value="1"></asp:ListItem>
                                                     <asp:ListItem Text="1:30" Value="1:30"></asp:ListItem>
@@ -127,14 +126,15 @@
                                                     <asp:ListItem Text="AM" Value="AM"></asp:ListItem>
                                                     <asp:ListItem Text="PM" Value="PM"></asp:ListItem>
                                                 </asp:DropDownList>
-                                            </td>
+                                                &nbsp;&nbsp;&nbsp;&nbsp;  <asp:CheckBox ID="chkBranchClosedMon" Text="Is Branch Closed?" runat="server" Checked="false" />
+                                            </td>                                            
                                         </tr>
-                                            <tr>
+                                        <tr>
                                             <td class="table_td_left">
                                                 Tuesday
                                             </td>
-                                            <td class="table_td_left" style="vertical-align:top">
-                                                FROM : 
+                                            <td class="table_td_left" style="vertical-align: top">
+                                                FROM :
                                                 <asp:DropDownList ID="ddlTuesdayFrom" runat="server">
                                                     <asp:ListItem Text="1" Value="1"></asp:ListItem>
                                                     <asp:ListItem Text="1:30" Value="1:30"></asp:ListItem>
@@ -165,8 +165,7 @@
                                                     <asp:ListItem Text="AM" Value="AM"></asp:ListItem>
                                                     <asp:ListItem Text="PM" Value="PM"></asp:ListItem>
                                                 </asp:DropDownList>
-
-                                                TO : 
+                                                TO :
                                                 <asp:DropDownList ID="ddlTuesdayTo" runat="server">
                                                     <asp:ListItem Text="1" Value="1"></asp:ListItem>
                                                     <asp:ListItem Text="1:30" Value="1:30"></asp:ListItem>
@@ -197,14 +196,15 @@
                                                     <asp:ListItem Text="AM" Value="AM"></asp:ListItem>
                                                     <asp:ListItem Text="PM" Value="PM"></asp:ListItem>
                                                 </asp:DropDownList>
+                                                &nbsp;&nbsp;&nbsp;&nbsp;  <asp:CheckBox ID="chkBranchClosedTue" Text="Is Branch Closed?" runat="server" Checked="false" />
                                             </td>
                                         </tr>
-                                         <tr>
+                                        <tr>
                                             <td class="table_td_left">
                                                 Wednesday
                                             </td>
-                                            <td class="table_td_left" style="vertical-align:top">
-                                                FROM : 
+                                            <td class="table_td_left" style="vertical-align: top">
+                                                FROM :
                                                 <asp:DropDownList ID="ddlWednesdayFrom" runat="server">
                                                     <asp:ListItem Text="1" Value="1"></asp:ListItem>
                                                     <asp:ListItem Text="1:30" Value="1:30"></asp:ListItem>
@@ -235,8 +235,7 @@
                                                     <asp:ListItem Text="AM" Value="AM"></asp:ListItem>
                                                     <asp:ListItem Text="PM" Value="PM"></asp:ListItem>
                                                 </asp:DropDownList>
-
-                                                TO : 
+                                                TO :
                                                 <asp:DropDownList ID="ddlWednesdayTo" runat="server">
                                                     <asp:ListItem Text="1" Value="1"></asp:ListItem>
                                                     <asp:ListItem Text="1:30" Value="1:30"></asp:ListItem>
@@ -267,14 +266,15 @@
                                                     <asp:ListItem Text="AM" Value="AM"></asp:ListItem>
                                                     <asp:ListItem Text="PM" Value="PM"></asp:ListItem>
                                                 </asp:DropDownList>
+                                                &nbsp;&nbsp;&nbsp;&nbsp;  <asp:CheckBox ID="chkBranchClosedWed" Text="Is Branch Closed?" runat="server" Checked="false" />
                                             </td>
                                         </tr>
                                         <tr>
                                             <td class="table_td_left">
                                                 Thursday
                                             </td>
-                                            <td class="table_td_left" style="vertical-align:top">
-                                                FROM : 
+                                            <td class="table_td_left" style="vertical-align: top">
+                                                FROM :
                                                 <asp:DropDownList ID="ddlThursdayFrom" runat="server">
                                                     <asp:ListItem Text="1" Value="1"></asp:ListItem>
                                                     <asp:ListItem Text="1:30" Value="1:30"></asp:ListItem>
@@ -305,8 +305,7 @@
                                                     <asp:ListItem Text="AM" Value="AM"></asp:ListItem>
                                                     <asp:ListItem Text="PM" Value="PM"></asp:ListItem>
                                                 </asp:DropDownList>
-
-                                                TO : 
+                                                TO :
                                                 <asp:DropDownList ID="ddlThursdayTo" runat="server">
                                                     <asp:ListItem Text="1" Value="1"></asp:ListItem>
                                                     <asp:ListItem Text="1:30" Value="1:30"></asp:ListItem>
@@ -337,14 +336,15 @@
                                                     <asp:ListItem Text="AM" Value="AM"></asp:ListItem>
                                                     <asp:ListItem Text="PM" Value="PM"></asp:ListItem>
                                                 </asp:DropDownList>
+                                                &nbsp;&nbsp;&nbsp;&nbsp;  <asp:CheckBox ID="chkBranchClosedThu" Text="Is Branch Closed?" runat="server" Checked="false" />
                                             </td>
                                         </tr>
-                                         <tr>
+                                        <tr>
                                             <td class="table_td_left">
                                                 Friday
                                             </td>
-                                            <td class="table_td_left" style="vertical-align:top">
-                                                FROM : 
+                                            <td class="table_td_left" style="vertical-align: top">
+                                                FROM :
                                                 <asp:DropDownList ID="ddlFridayFrom" runat="server">
                                                     <asp:ListItem Text="1" Value="1"></asp:ListItem>
                                                     <asp:ListItem Text="1:30" Value="1:30"></asp:ListItem>
@@ -375,8 +375,7 @@
                                                     <asp:ListItem Text="AM" Value="AM"></asp:ListItem>
                                                     <asp:ListItem Text="PM" Value="PM"></asp:ListItem>
                                                 </asp:DropDownList>
-
-                                                TO : 
+                                                TO :
                                                 <asp:DropDownList ID="ddlFridayTo" runat="server">
                                                     <asp:ListItem Text="1" Value="1"></asp:ListItem>
                                                     <asp:ListItem Text="1:30" Value="1:30"></asp:ListItem>
@@ -407,14 +406,15 @@
                                                     <asp:ListItem Text="AM" Value="AM"></asp:ListItem>
                                                     <asp:ListItem Text="PM" Value="PM"></asp:ListItem>
                                                 </asp:DropDownList>
+                                                &nbsp;&nbsp;&nbsp;&nbsp;  <asp:CheckBox ID="chkBranchClosedFri" Text="Is Branch Closed?" runat="server" Checked="false" />
                                             </td>
                                         </tr>
-                                         <tr>
+                                        <tr>
                                             <td class="table_td_left">
                                                 Saturday
                                             </td>
-                                            <td class="table_td_left" style="vertical-align:top">
-                                                FROM : 
+                                            <td class="table_td_left" style="vertical-align: top">
+                                                FROM :
                                                 <asp:DropDownList ID="ddlSaturdayFrom" runat="server">
                                                     <asp:ListItem Text="1" Value="1"></asp:ListItem>
                                                     <asp:ListItem Text="1:30" Value="1:30"></asp:ListItem>
@@ -445,8 +445,7 @@
                                                     <asp:ListItem Text="AM" Value="AM"></asp:ListItem>
                                                     <asp:ListItem Text="PM" Value="PM"></asp:ListItem>
                                                 </asp:DropDownList>
-
-                                                TO : 
+                                                TO :
                                                 <asp:DropDownList ID="ddlSaturdayTo" runat="server">
                                                     <asp:ListItem Text="1" Value="1"></asp:ListItem>
                                                     <asp:ListItem Text="1:30" Value="1:30"></asp:ListItem>
@@ -477,14 +476,15 @@
                                                     <asp:ListItem Text="AM" Value="AM"></asp:ListItem>
                                                     <asp:ListItem Text="PM" Value="PM"></asp:ListItem>
                                                 </asp:DropDownList>
+                                                &nbsp;&nbsp;&nbsp;&nbsp;  <asp:CheckBox ID="chkBranchClosedSat" Text="Is Branch Closed?" runat="server" Checked="false" />
                                             </td>
                                         </tr>
-                                         <tr>
+                                        <tr>
                                             <td class="table_td_left">
                                                 Sunday
                                             </td>
-                                            <td class="table_td_left" style="vertical-align:top">
-                                                FROM : 
+                                            <td class="table_td_left" style="vertical-align: top">
+                                                FROM :
                                                 <asp:DropDownList ID="ddlSundayFrom" runat="server">
                                                     <asp:ListItem Text="1" Value="1"></asp:ListItem>
                                                     <asp:ListItem Text="1:30" Value="1:30"></asp:ListItem>
@@ -515,8 +515,7 @@
                                                     <asp:ListItem Text="AM" Value="AM"></asp:ListItem>
                                                     <asp:ListItem Text="PM" Value="PM"></asp:ListItem>
                                                 </asp:DropDownList>
-
-                                                TO : 
+                                                TO :
                                                 <asp:DropDownList ID="ddlSundayTo" runat="server">
                                                     <asp:ListItem Text="1" Value="1"></asp:ListItem>
                                                     <asp:ListItem Text="1:30" Value="1:30"></asp:ListItem>
@@ -547,8 +546,9 @@
                                                     <asp:ListItem Text="AM" Value="AM"></asp:ListItem>
                                                     <asp:ListItem Text="PM" Value="PM"></asp:ListItem>
                                                 </asp:DropDownList>
+                                                &nbsp;&nbsp;&nbsp;&nbsp;  <asp:CheckBox ID="chkBranchClosedSun" Text="Is Branch Closed?" runat="server" Checked="false" />
                                             </td>
-                                        </tr>                                                                                                             
+                                        </tr>
                                         <tr>
                                             <td class="table_td_center" colspan="2">
                                                 <asp:Label ID="lblMessage" runat="server" ForeColor="Red" EnableViewState="false"></asp:Label>
@@ -570,8 +570,5 @@
                 <br />
             </td>
         </tr>
-
     </table>
-
 </asp:Content>
-
