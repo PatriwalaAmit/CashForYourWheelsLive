@@ -1784,3 +1784,48 @@ System.IndexOutOfRangeException: Index was outside the bounds of the array.
 29/09/2020 08:46:44.423 [1] [DEBUG] - With Rounding - AdjClean: 9275 AdjAvg: 8650 AdjRetail: 11650 AdjBelow: 8025
 29/09/2020 08:46:44.425 [1] [DEBUG] - GetValuation finished
 29/09/2020 08:46:44.425 [1] [DEBUG] - Exited program
+29/09/2020 10:55:39.151 [1] [DEBUG] - Entered program
+29/09/2020 10:55:39.177 [1] [DEBUG] - Entered program with args: 44061^2009^9^qlheiwyo53^100000^C
+29/09/2020 10:55:39.177 [1] [DEBUG] - Calling GetValuation
+29/09/2020 10:55:39.941 [1] [DEBUG] - minClean: 9400 minAvg: 8750 minRetail: 11750 minBelow: 8125
+29/09/2020 10:55:39.941 [1] [DEBUG] - maxClean: 7025 maxAvg: 6475 maxRetail: 9325 maxBelow: 5950
+29/09/2020 10:55:39.941 [1] [DEBUG] - No Rounding - AdjClean: 7630 AdjAvg: 7070 AdjRetail: 9950 AdjBelow: 6505
+29/09/2020 10:55:39.941 [1] [DEBUG] - With Rounding - AdjClean: 7625 AdjAvg: 7075 AdjRetail: 9950 AdjBelow: 6500
+29/09/2020 10:55:39.981 [1] [DEBUG] - GetValuation finished
+29/09/2020 10:55:39.981 [1] [DEBUG] - Exited program
+11/10/2020 10:47:26.057 [1] [DEBUG] - Entered program
+11/10/2020 10:47:26.090 [1] [DEBUG] - Entered program with args: 45991^2010^3^k4k54jwqmb^76000^C
+11/10/2020 10:47:26.090 [1] [DEBUG] - Calling GetValuation
+11/10/2020 10:47:26.300 [1] [DEBUG] - minClean: 2550 minAvg: 2250 minRetail: 3850 minBelow: 1975
+11/10/2020 10:47:26.300 [1] [DEBUG] - maxClean: 2025 maxAvg: 1725 maxRetail: 3325 maxBelow: 1450
+11/10/2020 10:47:26.300 [1] [DEBUG] - No Rounding - AdjClean: 2108 AdjAvg: 1808 AdjRetail: 3408 AdjBelow: 1533
+11/10/2020 10:47:26.300 [1] [DEBUG] - With Rounding - AdjClean: 2100 AdjAvg: 1800 AdjRetail: 3400 AdjBelow: 1525
+11/10/2020 10:47:26.301 [1] [DEBUG] - GetValuation finished
+11/10/2020 10:47:26.301 [1] [DEBUG] - Exited program
+11/10/2020 10:54:47.271 [1] [DEBUG] - Entered program
+11/10/2020 10:54:47.300 [1] [DEBUG] - Entered program with args: 45991^2010^3^k4k54jwqmb^76000^C
+11/10/2020 10:54:47.301 [1] [DEBUG] - Calling GetValuation
+11/10/2020 10:54:47.777 [1] [DEBUG] - minClean: 2550 minAvg: 2250 minRetail: 3850 minBelow: 1975
+11/10/2020 10:54:47.777 [1] [DEBUG] - maxClean: 2025 maxAvg: 1725 maxRetail: 3325 maxBelow: 1450
+11/10/2020 10:54:47.777 [1] [DEBUG] - No Rounding - AdjClean: 2108 AdjAvg: 1808 AdjRetail: 3408 AdjBelow: 1533
+11/10/2020 10:54:47.778 [1] [DEBUG] - With Rounding - AdjClean: 2100 AdjAvg: 1800 AdjRetail: 3400 AdjBelow: 1525
+11/10/2020 10:54:47.787 [1] [DEBUG] - GetValuation finished
+11/10/2020 10:54:47.787 [1] [DEBUG] - Exited program
+11/10/2020 11:05:36.946 [1] [DEBUG] - Entered program
+11/10/2020 11:05:36.976 [1] [DEBUG] - Entered program with args: 37681^2006^9^k4k54jwqmb^93000^C
+11/10/2020 11:05:36.976 [1] [DEBUG] - Calling GetValuation
+11/10/2020 11:05:37.250 [1] [ERROR] - Error in GetValuation
+System.IndexOutOfRangeException: Index was outside the bounds of the array.
+   at BAL_Valuation.ProcessData(DataTable results, String mileage, String session) in c:\Users\Mark\Downloads\parallelvaluation\ParallelValuation\ParallelValuation\BAL_Valuation.cs:line 75
+   at BAL_Valuation.GetValuation(String uvtid, Int32 year, Int32 month, String mileage, String session) in c:\Users\Mark\Downloads\parallelvaluation\ParallelValuation\ParallelValuation\BAL_Valuation.cs:line 63
+11/10/2020 11:05:37.295 [1] [DEBUG] - GetValuation finished
+11/10/2020 11:05:37.295 [1] [DEBUG] - Exited program
+11/10/2020 11:15:14.804 [1] [DEBUG] - Entered program
+11/10/2020 11:15:14.833 [1] [DEBUG] - Entered program with args: 34245^2007^6^k4k54jwqmb^50000^C
+11/10/2020 11:15:14.834 [1] [DEBUG] - Calling GetValuation
+11/10/2020 11:15:15.251 [1] [DEBUG] - minClean: 930 minAvg: 710 minRetail: 1925 minBelow: 480
+11/10/2020 11:15:15.251 [1] [DEBUG] - maxClean: 610 maxAvg: 390 maxRetail: 1625 maxBelow: 160
+11/10/2020 11:15:15.251 [1] [DEBUG] - No Rounding - AdjClean: 750 AdjAvg: 530 AdjRetail: 1745 AdjBelow: 300
+11/10/2020 11:15:15.252 [1] [DEBUG] - With Rounding - AdjClean: 750 AdjAvg: 530 AdjRetail: 1750 AdjBelow: 300
+11/10/2020 11:15:15.254 [1] [DEBUG] - GetValuation finished
+11/10/2020 11:15:15.254 [1] [DEBUG] - Exited program

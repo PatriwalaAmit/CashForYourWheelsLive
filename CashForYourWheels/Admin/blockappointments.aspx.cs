@@ -24,6 +24,7 @@ public partial class Admin_blockappointments : BasePage
                 ddlBranchName.DataBind();
 
                 ddlBranchName.Items.Insert(0, new ListItem("All","0"));
+                chkIsClosed.Checked = false;
             }
             else
             {
@@ -58,6 +59,8 @@ public partial class Admin_blockappointments : BasePage
             ddlToAMPM.SelectedValue = strTo[1];
             //txtZone.Text = Convert.ToString(table.Rows[0]["ZoneName"]);
             ddlBranchName.SelectedValue = Convert.ToString(table.Rows[0]["branchId"]);
+
+            chkIsClosed.Checked = Convert.ToBoolean(table.Rows[0]["IsClosed"]);
         }
     }
 
@@ -120,7 +123,7 @@ public partial class Admin_blockappointments : BasePage
     #region Button Click events
     protected void btnDelete_Click(object sender, EventArgs e)
     {
-        if (BALBlockedAppointments.InsertUpdateBlockAppointment("delete","0","1/1/1900","0","0","",ReturnIds(),-1, 1) == true)
+        if (BALBlockedAppointments.InsertUpdateBlockAppointment("delete", "0", "1/1/1900", "0", "0", "", ReturnIds(), -1, 1, chkIsClosed.Checked) == true)
         {
             ShowMessage("Record Deleted Successfully.");
             FillGrid(1);
@@ -133,7 +136,7 @@ public partial class Admin_blockappointments : BasePage
 
     protected void btnActive_Click(object sender, EventArgs e)
     {
-        if (BALBlockedAppointments.InsertUpdateBlockAppointment("active", "0", "1/1/1900", "0", "0", "", ReturnIds(), -1, 1) == true)
+        if (BALBlockedAppointments.InsertUpdateBlockAppointment("active", "0", "1/1/1900", "0", "0", "", ReturnIds(), -1, 1,chkIsClosed.Checked) == true)
         {
             ShowMessage("Record Activated succefully");
             FillGrid(1);
@@ -146,7 +149,7 @@ public partial class Admin_blockappointments : BasePage
 
     protected void btnInActive_Click(object sender, EventArgs e)
     {
-        if (BALBlockedAppointments.InsertUpdateBlockAppointment("inactive", "0", "1/1/1900", "0", "0", "", ReturnIds(), -1, 1) == true)        
+        if (BALBlockedAppointments.InsertUpdateBlockAppointment("inactive", "0", "1/1/1900", "0", "0", "", ReturnIds(), -1, 1,chkIsClosed.Checked) == true)        
         {
             ShowMessage("Record Deactivated succefully");
             FillGrid(1);
@@ -173,7 +176,7 @@ public partial class Admin_blockappointments : BasePage
                 if (string.IsNullOrEmpty(lblMode.Text))
                 {
                     lblMode.Text = "0";
-                    if (BALBlockedAppointments.InsertUpdateBlockAppointment("insert", lblMode.Text, strDate, strFromTime, strToTime, strDescription, ReturnIds(), 0, iBranchName) == true)
+                    if (BALBlockedAppointments.InsertUpdateBlockAppointment("insert", lblMode.Text, strDate, strFromTime, strToTime, strDescription, ReturnIds(), 0, iBranchName,chkIsClosed.Checked) == true)
                     {
                         ShowMessage("Record Insert Susseccfully.");
                         FillGrid(1);
@@ -187,7 +190,7 @@ public partial class Admin_blockappointments : BasePage
                 }
                 else
                 {
-                    if (BALBlockedAppointments.InsertUpdateBlockAppointment("update", lblMode.Text, strDate, strFromTime, strToTime, strDescription, ReturnIds(), 0, iBranchName) == true)
+                    if (BALBlockedAppointments.InsertUpdateBlockAppointment("update", lblMode.Text, strDate, strFromTime, strToTime, strDescription, ReturnIds(), 0, iBranchName,chkIsClosed.Checked) == true)
                     {
                         ShowMessage("Record Updated Susseccfully.");
                         FillGrid(1);
@@ -231,6 +234,8 @@ public partial class Admin_blockappointments : BasePage
         txtDescription.Text =string.Empty;
 
         ddlBranchName.SelectedValue = "0";
+
+        chkIsClosed.Checked = false;
     }
 
     private void ShowMessage(string msg)

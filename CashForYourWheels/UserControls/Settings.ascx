@@ -69,6 +69,15 @@
                                 NavigateUrl="~/Admin/CapRules.aspx" />
                         </td>
                     </tr>
+                    <tr>
+                        <td class="table_td_right">
+                            <asp:Image ID="Image7" runat="server" ImageUrl="~/Admin/Images/bullet.gif" />
+                        </td>
+                        <td>
+                            <asp:HyperLink ID="HyperLink6" runat="server" Text="Car Sourcing" CssClass="label_blackLink"
+                                NavigateUrl="~/Admin/CarSourcing.aspx" />
+                        </td>
+                    </tr>
                 </table>
             </asp:Panel>
             <ajaxToolkit:CollapsiblePanelExtender ID="cpeDemo" runat="Server" TargetControlID="Panel1"

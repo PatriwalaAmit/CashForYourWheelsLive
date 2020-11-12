@@ -106,7 +106,7 @@
                                                     <asp:ListItem Text="AM" Value="AM"></asp:ListItem>
                                                     <asp:ListItem Text="PM" Value="PM"></asp:ListItem>
                                                 </asp:DropDownList>
-                                                &nbsp;<span class="red">*</span>
+                                                &nbsp;<span class="red">*</span> &nbsp;&nbsp; <asp:CheckBox ID="chkIsClosed" Text="Is Closed?" runat="server" />
                                             </td>
                                         </tr>
                                         <tr>

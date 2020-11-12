@@ -138,6 +138,15 @@ public partial class Admin_blockappointments {
     protected global::System.Web.UI.WebControls.DropDownList ddlToAMPM;
     
     /// <summary>
+    /// chkIsClosed control.
+    /// </summary>
+    /// <remarks>
+    /// Auto-generated field.
+    /// To modify move field declaration from designer file to code-behind file.
+    /// </remarks>
+    protected global::System.Web.UI.WebControls.CheckBox chkIsClosed;
+    
+    /// <summary>
     /// Label8 control.
     /// </summary>
     /// <remarks>

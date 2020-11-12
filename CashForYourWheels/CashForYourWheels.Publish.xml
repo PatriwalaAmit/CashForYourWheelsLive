@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <publishData>
-  <publishProfile publishUrl="C:\working-folder-Amit\bk\published\29092020" deleteExistingFiles="True" ftpAnonymousLogin="False" ftpPassiveMode="True" msdeploySite="" msdeploySiteID="" msdeployRemoteSitePhysicalPath="" msdeployAllowUntrustedCertificate="False" msdeploySkipExtraFilesOnServer="True" msdeployMarkAsApp="False" profileName="Profile1" publishMethod="FileSystem" replaceMatchingFiles="False" userName="" savePWD="False" userPWD="" SelectedForPublish="True">
+  <publishProfile publishUrl="C:\working-folder-Amit\bk\published\12112020" deleteExistingFiles="True" ftpAnonymousLogin="False" ftpPassiveMode="True" msdeploySite="" msdeploySiteID="" msdeployRemoteSitePhysicalPath="" msdeployAllowUntrustedCertificate="False" msdeploySkipExtraFilesOnServer="True" msdeployMarkAsApp="False" profileName="Profile1" publishMethod="FileSystem" replaceMatchingFiles="False" userName="" savePWD="False" userPWD="" SelectedForPublish="True">
     <file relUrl="images/value-my-car.png" publishTime="04/04/2016 17:01:27" />
     <file relUrl="Admin/editor/skins/office2003/images/toolbar.start.gif" publishTime="12/01/2011 00:55:58" />
     <file relUrl="App_Browsers/BrowserFile.browser" publishTime="04/13/2013 02:21:37" />
@@ -47,6 +47,7 @@
     <file relUrl="Admin/editor/filemanager/connectors/test.html" publishTime="12/01/2011 00:55:58" />
     <file relUrl="images/details.png" publishTime="07/30/2012 20:33:26" />
     <file relUrl="images/Copy of bubble-tail2.png" publishTime="12/12/2011 17:17:16" />
+    <file relUrl="car-sourcing.aspx" publishTime="11/12/2020 10:19:34" />
     <file relUrl="Admin/editor/dialog/fck_paste.html" publishTime="12/01/2011 00:55:56" />
     <file relUrl="MailContent/dailyemail.html" publishTime="05/12/2020 10:11:07" />
     <file relUrl="images/p-left-bg.png" publishTime="12/12/2011 17:17:16" />
@@ -121,7 +122,7 @@
     <file relUrl="Admin/editor/_source/internals/fckundo.js" publishTime="12/01/2011 00:55:58" />
     <file relUrl="Admin/editor/_source/internals/fckstyles.js" publishTime="12/01/2011 00:55:58" />
     <file relUrl="images/step4 - Copy.png" publishTime="12/12/2011 17:17:16" />
-    <file relUrl="contact-us.aspx" publishTime="04/10/2013 09:36:00" />
+    <file relUrl="Admin/editor/lang/lv.js" publishTime="12/01/2011 00:55:58" />
     <file relUrl="images/next-preview.png" publishTime="12/16/2011 00:41:00" />
     <file relUrl="Admin/editor/skins/default/images/toolbar.arrowright.gif" publishTime="12/01/2011 00:55:58" />
     <file relUrl="images/one-line-right.png" publishTime="12/12/2011 17:17:16" />
@@ -350,7 +351,7 @@
     <file relUrl="Admin/AdjustCalculations.aspx" publishTime="05/29/2013 10:17:41" />
     <file relUrl="Admin/editor/lang/km.js" publishTime="12/01/2011 00:55:58" />
     <file relUrl="Master/AdminPanel.master" publishTime="04/10/2013 09:48:40" />
-    <file relUrl="Admin/editor/lang/ru.js" publishTime="12/01/2011 00:55:58" />
+    <file relUrl="bin/CashForYourWheels.dll" publishTime="11/12/2020 11:25:00" />
     <file relUrl="Admin/editor/skins/silver/images/dialog.sides.gif" publishTime="12/01/2011 00:55:58" />
     <file relUrl="Admin/editor/dialog/fck_template/images/template1.gif" publishTime="12/01/2011 00:55:56" />
     <file relUrl="Admin/editor/images/smiley/msn/kiss.gif" publishTime="12/01/2011 00:55:58" />
@@ -412,6 +413,7 @@
     <file relUrl="Admin/editor/dialog/fck_template/images/template3.gif" publishTime="12/01/2011 00:55:56" />
     <file relUrl="Admin/Images/login.gif" publishTime="08/21/2012 14:36:58" />
     <file relUrl="Admin/Images/button_submit_order.gif" publishTime="12/01/2011 00:56:00" />
+    <file relUrl="Admin/Images/square.gif" publishTime="12/01/2011 00:56:00" />
     <file relUrl="Admin/editor/skins/office2003/fck_dialog.css" publishTime="12/01/2011 00:55:58" />
     <file relUrl="Admin/editor/lang/mn.js" publishTime="12/01/2011 00:55:58" />
     <file relUrl="Admin/editor/images/arrow_ltr.gif" publishTime="12/01/2011 00:55:58" />
@@ -435,7 +437,7 @@
     <file relUrl="Admin/editor/_source/internals/fckconfig.js" publishTime="12/01/2011 00:55:58" />
     <file relUrl="UserControls/UserLogin.ascx" publishTime="04/10/2013 09:46:03" />
     <file relUrl="Admin/editor/filemanager/browser/default/images/Folder32.gif" publishTime="12/01/2011 00:55:56" />
-    <file relUrl="css/main.css" publishTime="04/18/2016 18:45:35" />
+    <file relUrl="css/main.css" publishTime="11/12/2020 09:48:34" />
     <file relUrl="Admin/editor/images/smiley/msn/envelope.gif" publishTime="12/01/2011 00:55:58" />
     <file relUrl="Global.asax" publishTime="04/10/2013 09:52:34" />
     <file relUrl="Admin/CapRules.aspx" publishTime="05/30/2020 14:48:27" />
@@ -510,12 +512,12 @@
     <file relUrl="Admin/Images/button_continue_shopping.gif" publishTime="12/01/2011 00:56:00" />
     <file relUrl="images/bubble-1.png" publishTime="12/12/2011 17:17:16" />
     <file relUrl="UserControls/WC_bodyworkcondition.ascx" publishTime="04/10/2013 09:46:00" />
+    <file relUrl="Admin/CarSourcing.aspx" publishTime="11/12/2020 11:24:48" />
     <file relUrl="images/get-your-valuation.png" publishTime="12/12/2011 17:17:16" />
     <file relUrl="Admin/editor/skins/default/images/toolbar.end.gif" publishTime="12/01/2011 00:55:58" />
     <file relUrl="images/email-header-top.png" publishTime="12/13/2011 15:19:50" />
     <file relUrl="Admin/editor/lang/el.js" publishTime="12/01/2011 00:55:58" />
     <file relUrl="images/email-get.png" publishTime="12/13/2011 15:20:02" />
-    <file relUrl="Admin/editor/lang/lv.js" publishTime="12/01/2011 00:55:58" />
     <file relUrl="css/style.css" publishTime="07/30/2012 17:22:36" />
     <file relUrl="Admin/editor/lang/sr.js" publishTime="12/01/2011 00:55:58" />
     <file relUrl="images/step-tab-right.png" publishTime="12/15/2011 21:52:50" />
@@ -531,10 +533,11 @@
     <file relUrl="Admin/editor/images/smiley/msn/angry_smile.gif" publishTime="12/01/2011 00:55:58" />
     <file relUrl="images/free.png" publishTime="07/30/2012 17:54:20" />
     <file relUrl="MailContent/bridgend-appconfirmation.html" publishTime="05/12/2020 10:11:07" />
+    <file relUrl="Admin/editor/images/smiley/msn/devil_smile.gif" publishTime="12/01/2011 00:55:58" />
     <file relUrl="Admin/Images/icon-add.png" publishTime="12/01/2011 00:56:00" />
     <file relUrl="MailContent/carregistrationdetail_old.html" publishTime="05/12/2020 10:11:07" />
     <file relUrl="Admin/editor/dialog/fck_colorselector.html" publishTime="12/01/2011 00:55:56" />
-    <file relUrl="Admin/blockappointments.aspx" publishTime="03/02/2018 11:57:22" />
+    <file relUrl="Admin/blockappointments.aspx" publishTime="09/29/2020 10:29:25" />
     <file relUrl="images/bubble.png" publishTime="12/12/2011 17:17:16" />
     <file relUrl="Admin/editor/filemanager/browser/default/images/icons/32/html.gif" publishTime="12/01/2011 00:55:56" />
     <file relUrl="Admin/editor/_source/classes/fckxml_gecko.js" publishTime="12/01/2011 00:55:58" />
@@ -549,7 +552,7 @@
     <file relUrl="Admin/editor/dialog/fck_image/fck_image_preview.html" publishTime="12/01/2011 00:55:56" />
     <file relUrl="fonts/swiss721boldswa.html" publishTime="07/30/2012 06:41:38" />
     <file relUrl="bin/ja/AjaxControlToolkit.resources.dll" publishTime="04/12/2013 16:00:50" />
-    <file relUrl="bin/CashForYourWheels.pdb" publishTime="09/29/2020 08:41:31" />
+    <file relUrl="bin/CashForYourWheels.pdb" publishTime="11/12/2020 11:25:00" />
     <file relUrl="Admin/editor/dialog/common/images/locked.gif" publishTime="12/01/2011 00:55:56" />
     <file relUrl="Admin/editor/filemanager/browser/default/images/icons/pdf.gif" publishTime="12/01/2011 00:55:56" />
     <file relUrl="Admin/editor/dialog/fck_source.html" publishTime="12/01/2011 00:55:56" />
@@ -574,7 +577,7 @@
     <file relUrl="images/your-valuation.png" publishTime="12/12/2011 17:17:16" />
     <file relUrl="Admin/editor/skins/default/images/sprites.gif" publishTime="12/01/2011 00:55:58" />
     <file relUrl="terms_and_conditions.aspx" publishTime="04/10/2013 09:36:02" />
-    <file relUrl="Admin/Images/square.gif" publishTime="12/01/2011 00:56:00" />
+    <file relUrl="Admin/editor/lang/ru.js" publishTime="12/01/2011 00:55:58" />
     <file relUrl="images/how-does-bg.png" publishTime="12/12/2011 17:17:16" />
     <file relUrl="images/icon.png" publishTime="12/14/2011 13:21:40" />
     <file relUrl="Admin/editor/images/smiley/msn/thumbs_down.gif" publishTime="12/01/2011 00:55:58" />
@@ -583,7 +586,6 @@
     <file relUrl="Admin/editor/_source/internals/fcktoolbaritems.js" publishTime="12/01/2011 00:55:58" />
     <file relUrl="Admin/editor/lang/sl.js" publishTime="12/01/2011 00:55:58" />
     <file relUrl="Admin/editor/images/css/fck_showtableborders_gecko.css" publishTime="12/01/2011 00:55:58" />
-    <file relUrl="bin/CashForYourWheels.dll" publishTime="09/29/2020 08:41:31" />
     <file relUrl="Admin/editor/_source/internals/fckxhtml.js" publishTime="12/01/2011 00:56:00" />
     <file relUrl="Admin/editor/dialog/fck_template.html" publishTime="12/01/2011 00:55:56" />
     <file relUrl="images/tab-left.png" publishTime="12/12/2011 17:17:16" />
@@ -615,6 +617,7 @@
     <file relUrl="Admin/editor/_source/commandclasses/fckpastewordcommand.js" publishTime="12/01/2011 00:55:58" />
     <file relUrl="Admin/editor/_source/internals/fckselection.js" publishTime="12/01/2011 00:55:58" />
     <file relUrl="images/submit.png" publishTime="08/17/2012 13:14:30" />
+    <file relUrl="contact-us.aspx" publishTime="04/10/2013 09:36:00" />
     <file relUrl="Admin/editor/fckeditor.original.html" publishTime="12/01/2011 00:55:56" />
     <file relUrl="Admin/editor/_source/classes/fckdocumentfragment_gecko.js" publishTime="12/01/2011 00:55:58" />
     <file relUrl="Admin/editor/dialog/common/fck_dialog_common.js" publishTime="12/01/2011 00:55:56" />
@@ -622,7 +625,7 @@
     <file relUrl="Admin/editor/filemanager/browser/default/images/icons/32/default.icon.gif" publishTime="12/01/2011 00:55:56" />
     <file relUrl="Admin/Images/searchicon.png" publishTime="12/01/2011 00:56:00" />
     <file relUrl="Web.sitemap" publishTime="11/30/2011 19:55:56" />
-    <file relUrl="UserControls/Settings.ascx" publishTime="01/15/2020 19:21:27" />
+    <file relUrl="UserControls/Settings.ascx" publishTime="11/12/2020 10:42:33" />
     <file relUrl="css/grid-300.css" publishTime="04/19/2016 10:36:45" />
     <file relUrl="Admin/editor/images/arrow_rtl.gif" publishTime="12/01/2011 00:55:58" />
     <file relUrl="Admin/editor/_source/fckjscoreextensions.js" publishTime="12/01/2011 00:55:58" />
@@ -678,7 +681,6 @@
     <file relUrl="appointment_confirmation.aspx" publishTime="05/12/2020 11:53:46" />
     <file relUrl="images/email-contant.png" publishTime="12/13/2011 15:19:44" />
     <file relUrl="Car-Selection-2.aspx" publishTime="07/21/2019 20:11:19" />
-    <file relUrl="images/logo-bg.gif" publishTime="07/28/2012 19:21:28" />
     <file relUrl="images/logo.gif" publishTime="07/28/2012 19:21:58" />
     <file relUrl="Admin/editor/images/css/images/fck_anchor.gif" publishTime="12/01/2011 00:55:58" />
     <file relUrl="images/one-line.png" publishTime="12/12/2011 17:17:16" />
@@ -696,7 +698,7 @@
     <file relUrl="Admin/editor/dialog/fck_spellerpages/spellerpages/controls.html" publishTime="12/01/2011 00:55:56" />
     <file relUrl="images/valuation-bg.png" publishTime="07/30/2012 23:19:44" />
     <file relUrl="Admin/editor/plugins/placeholder/placeholder.gif" publishTime="12/01/2011 00:55:58" />
-    <file relUrl="parallelprocessvaluation/val-log-file.txt" publishTime="09/29/2020 08:46:44" />
+    <file relUrl="parallelprocessvaluation/val-log-file.txt" publishTime="10/11/2020 11:15:15" />
     <file relUrl="Admin/editor/skins/office2003/images/toolbar.buttonarrow.gif" publishTime="12/01/2011 00:55:58" />
     <file relUrl="UserControls/TitleStrip.ascx" publishTime="04/10/2013 09:46:02" />
     <file relUrl="Admin/editor/plugins/tablecommands/fckplugin.js" publishTime="12/01/2011 00:55:58" />
@@ -725,7 +727,7 @@
     <file relUrl="images/go-button.gif" publishTime="12/12/2011 17:17:16" />
     <file relUrl="Admin/editor/_source/classes/fcktoolbar.js" publishTime="12/01/2011 00:55:58" />
     <file relUrl="Admin/Images/directory_minus.gif" publishTime="12/01/2011 00:56:00" />
-    <file relUrl="Admin/editor/images/smiley/msn/devil_smile.gif" publishTime="12/01/2011 00:55:58" />
+    <file relUrl="Admin/editor/_source/internals/fckxhtml_ie.js" publishTime="12/01/2011 00:56:00" />
     <file relUrl="App_Themes/White/White.css" publishTime="11/30/2011 19:56:00" />
     <file relUrl="Admin/editor/skins/silver/images/sprites.gif" publishTime="12/01/2011 00:55:58" />
     <file relUrl="Admin/editor/dialog/common/fck_dialog_common.css" publishTime="12/01/2011 00:55:56" />
@@ -742,7 +744,7 @@
     <file relUrl="Admin/editor/filemanager/browser/default/images/FolderUp.gif" publishTime="12/01/2011 00:55:56" />
     <file relUrl="Admin/editor/dialog/fck_spellerpages/spellerpages/spellchecker.html" publishTime="12/01/2011 00:55:56" />
     <file relUrl="Admin/editor/filemanager/browser/default/images/icons/32/exe.gif" publishTime="12/01/2011 00:55:56" />
-    <file relUrl="Admin/editor/_source/internals/fckxhtml_ie.js" publishTime="12/01/2011 00:56:00" />
+    <file relUrl="images/logo-bg.gif" publishTime="07/28/2012 19:21:28" />
     <file relUrl="images/step2.png" publishTime="07/30/2012 18:53:16" />
     <file relUrl="Admin/editor/plugins/bbcode/_sample/sample.html" publishTime="12/01/2011 00:55:58" />
     <file relUrl="Admin/editor/images/smiley/msn/tounge_smile.gif" publishTime="12/01/2011 00:55:58" />

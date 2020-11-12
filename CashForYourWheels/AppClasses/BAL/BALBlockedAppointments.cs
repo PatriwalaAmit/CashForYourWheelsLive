@@ -9,7 +9,7 @@ using System.Web;
 /// </summary>
 public static class BALBlockedAppointments
 {
-    public static Boolean InsertUpdateBlockAppointment(string operationtype, string blockid, string blcokdate, string fromtime, string totime, string reason, string appblocksid, int status, int locationID)
+    public static Boolean InsertUpdateBlockAppointment(string operationtype, string blockid, string blcokdate, string fromtime, string totime, string reason, string appblocksid, int status, int locationID, Boolean IsClosed)
     {
         // get a configured DbCommand object
         GenericDataAccess gda = new GenericDataAccess();
@@ -72,6 +72,12 @@ public static class BALBlockedAppointments
         param4.Value = status;
         param4.DbType = DbType.Int32;
         comm.Parameters.Add(param4);
+
+        DbParameter param6 = comm.CreateParameter();
+        param6.ParameterName = "@isclosed";
+        param6.Value = IsClosed;
+        param6.DbType = DbType.Boolean;
+        comm.Parameters.Add(param6);
 
         DbParameter param5 = comm.CreateParameter();
         param5.ParameterName = "@ret";

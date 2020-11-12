@@ -147,6 +147,24 @@ public partial class UserControls_Settings {
     protected global::System.Web.UI.WebControls.HyperLink HyperLink5;
     
     /// <summary>
+    /// Image7 control.
+    /// </summary>
+    /// <remarks>
+    /// Auto-generated field.
+    /// To modify move field declaration from designer file to code-behind file.
+    /// </remarks>
+    protected global::System.Web.UI.WebControls.Image Image7;
+    
+    /// <summary>
+    /// HyperLink6 control.
+    /// </summary>
+    /// <remarks>
+    /// Auto-generated field.
+    /// To modify move field declaration from designer file to code-behind file.
+    /// </remarks>
+    protected global::System.Web.UI.WebControls.HyperLink HyperLink6;
+    
+    /// <summary>
     /// cpeDemo control.
     /// </summary>
     /// <remarks>

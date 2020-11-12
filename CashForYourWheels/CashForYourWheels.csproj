@@ -95,6 +95,7 @@
     <Content Include="Admin\branchlocationaspx.aspx" />
     <Content Include="Admin\branchtime.aspx" />
     <Content Include="Admin\CapRules.aspx" />
+    <Content Include="Admin\CarSourcing.aspx" />
     <Content Include="Admin\CheckValuation.aspx" />
     <Content Include="Admin\CMS.aspx" />
     <Content Include="Admin\CSS\StyleSheet.css" />
@@ -587,6 +588,7 @@
     <Content Include="branchlocator.aspx" />
     <Content Include="Car-Selection-2.aspx" />
     <Content Include="Car-Selection-3.aspx" />
+    <Content Include="car-sourcing.aspx" />
     <Content Include="Car.aspx" />
     <Content Include="contact-us.aspx" />
     <Content Include="MailContent\bridgend-appconfirmation.html" />
@@ -911,6 +913,13 @@
     <Compile Include="Admin\CapRules.aspx.designer.cs">
       <DependentUpon>CapRules.aspx</DependentUpon>
     </Compile>
+    <Compile Include="Admin\CarSourcing.aspx.cs">
+      <DependentUpon>CarSourcing.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\CarSourcing.aspx.designer.cs">
+      <DependentUpon>CarSourcing.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Admin\CheckValuation.aspx.cs">
       <DependentUpon>CheckValuation.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -981,6 +990,7 @@
     <Compile Include="Admin\zonecomponent.aspx.designer.cs">
       <DependentUpon>zonecomponent.aspx</DependentUpon>
     </Compile>
+    <Compile Include="AppClasses\BAL\BAL_CarSourcing.cs" />
     <Compile Include="AppClasses\BAL\BAL_Rules.cs" />
     <Compile Include="AppClasses\Common\NumberToWords.cs" />
     <Compile Include="AppClasses\Entity\clsRulesProps.cs" />
@@ -992,6 +1002,13 @@
       <DependentUpon>appointment_confirmation.aspx</DependentUpon>
     </Compile>
     <Compile Include="App_Start\RouteConfig.cs" />
+    <Compile Include="car-sourcing.aspx.cs">
+      <DependentUpon>car-sourcing.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="car-sourcing.aspx.designer.cs">
+      <DependentUpon>car-sourcing.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Motorbike.aspx.cs">
       <DependentUpon>Motorbike.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>

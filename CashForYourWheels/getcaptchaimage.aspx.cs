@@ -13,7 +13,7 @@ public partial class getcaptchaimage : System.Web.UI.Page
     private void Page_Load(object sender, System.EventArgs e)
     {
         log.Debug("Entered Page_Load - getcaptchaimage");
-        log.Debug("Value of captcha session: " + this.Session["CaptchaImageText"].ToString());
+        log.Debug("Value of captcha session: " + this.Session["CaptchaImageText"] != null ? this.Session["CaptchaImageText"].ToString() : string.Empty);
         // Create a CAPTCHA image using the text stored in the Session object.
         CaptchaImage ci = new CaptchaImage(this.Session["CaptchaImageText"].ToString(), 200, 50, "Century Schoolbook");
 
